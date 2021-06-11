@@ -1,13 +1,3271 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
-  },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
-  }
+    "result": {
+        "id": "RUT:Line:17",
+        "publicCode": "17",
+        "name": "Rikshospitalet - Sinsen-Grefsen st.",
+        "journeyPatterns": [
+            {
+                "id": "RUT:JourneyPattern:17-286",
+                "name": "17 2 to Rikshospitalet (RB:NSR:Quay:11500) from Stortorvet (RB:NSR:Quay:7512) express",
+                "pointsOnLink": {
+                    "length": 489,
+                    "points": "{stlJ{uq`A@G@K@K@K?I?KAIAIAGEIGKGGGGA??AC?CAE?E?EBGFCBADA?CFCFELCHQt@Mb@CJ?@IZ??ABAFENGTABIXGVOj@Uv@Mb@Mb@Oj@Oj@c@hBGVKb@m@dCENCHCFCDEFCBEBCBG@G@C?OBG@G@QFODKBa@JMD??A?A@MD[JSHYJE@EBCBEDCDCFCHAFADAD?FADATEl@ANALCPEVOv@Kj@o@~CCPCLMj@G^S`AKf@Oz@S~@??AJm@xCAHKf@EREPEPCJEPENGPELCFEHELGJ?@EFGJEFCDCBGFEBCBEBGBC@E@E@E@A?G@I@mAHm@DU@G@??[BW@I@C?C@GAE?EAEAECECEEEGGG[c@EGk@y@GGGGCAGAE?A?E@E@CDCDEFCFELkAjFGX?@Md@Kf@IVETCB???BCDELGLGJEHGHKHKJMFWLiB~@KDGDGBKBK@K@q@FS@W@I@G@IBMDKBQH[N[NQHC@??A@OF]Pe@Rs@\\SJOFKD??KDOFw@XIBGBI@E@I@I@K?I?K@IAM?KAMCIAKCICICICIE]QOGMG??EAEC{BeAeAc@A?SIKGwAm@mD_BuB_AOGOGc@SUK??CAYMsAm@kCkA_@QWMsEsBIEECOGKGi@UAAWK??AA]OEAq@[o@YKGKEGAIA??I?E@IBGBGDGHGFMPyA~BILMRcF|HMPINUZMP[h@CDOR??MRyA|BQVORQTQRKJQNKHKFMHMHIDMFOFKDMDKBM@MBOBM@OBYBcD\\gBRKBC@GDEBEFEDCDCDEHCHCJCHCJU|@?BSt@??EPqBtIOh@I\\K\\GPITIVGRQ\\k@rA]v@KT??A@ITWj@EJCFq@fBoAjDKVGPENEPEPGXGXABGXEXELELELELGPQ\\w@lB]v@A@M\\??KVKTOZIRGNGPEPCPCNCNCPAVCZ?XA\\Al@EzCAP?PATAPCNCLEJCLEFCFEFEHGDEBGB??GBG@G?GAGAECECSGeAe@e@UQG??OIICOIMEIGKGMI_BaAKGKGGCGAEAG?E@E@E@EBEBEBEDEFEFEJELENCLCLANCPARWrDK`BKxAAJ?HAD?H?J?L?P?L?HAL?FEd@"
+                },
+                "quays": [
+                    {
+                        "id": "NSR:Quay:7512",
+                        "longitude": 10.745391,
+                        "latitude": 59.912444,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4160",
+                            "name": "Stortorvet",
+                            "longitude": 10.745399,
+                            "latitude": 59.912978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:100634",
+                        "longitude": 10.745149,
+                        "latitude": 59.913153,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4160",
+                            "name": "Stortorvet",
+                            "longitude": 10.745399,
+                            "latitude": 59.912978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7530",
+                        "longitude": 10.7413,
+                        "latitude": 59.915256,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4168",
+                            "name": "Tinghuset",
+                            "longitude": 10.741279,
+                            "latitude": 59.915178
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7539",
+                        "longitude": 10.737019,
+                        "latitude": 59.916912,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4174",
+                            "name": "Tullinløkka",
+                            "longitude": 10.737199,
+                            "latitude": 59.916816
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7556",
+                        "longitude": 10.734589,
+                        "latitude": 59.918855,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4183",
+                            "name": "Holbergs plass",
+                            "longitude": 10.734538,
+                            "latitude": 59.918791
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11484",
+                        "longitude": 10.733122,
+                        "latitude": 59.9209,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6258",
+                            "name": "Frydenlund",
+                            "longitude": 10.733055,
+                            "latitude": 59.920898
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11480",
+                        "longitude": 10.731703,
+                        "latitude": 59.923474,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6256",
+                            "name": "Dalsbergstien",
+                            "longitude": 10.731591,
+                            "latitude": 59.923567
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11494",
+                        "longitude": 10.731229,
+                        "latitude": 59.926122,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6263",
+                            "name": "Bislett",
+                            "longitude": 10.731073,
+                            "latitude": 59.925967
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11498",
+                        "longitude": 10.733149,
+                        "latitude": 59.92967,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6265",
+                            "name": "Stensgata",
+                            "longitude": 10.733004,
+                            "latitude": 59.929509
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11508",
+                        "longitude": 10.734887,
+                        "latitude": 59.932838,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6269",
+                            "name": "Adamstuen",
+                            "longitude": 10.734756,
+                            "latitude": 59.932738
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11587",
+                        "longitude": 10.731934,
+                        "latitude": 59.936349,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6307",
+                            "name": "Ullevål sykehus",
+                            "longitude": 10.732007,
+                            "latitude": 59.936235
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11626",
+                        "longitude": 10.728823,
+                        "latitude": 59.940435,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6327",
+                            "name": "John Colletts plass",
+                            "longitude": 10.729024,
+                            "latitude": 59.940321
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11650",
+                        "longitude": 10.725177,
+                        "latitude": 59.941942,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6340",
+                            "name": "Universitetet Blindern",
+                            "longitude": 10.724783,
+                            "latitude": 59.942061
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11663",
+                        "longitude": 10.720832,
+                        "latitude": 59.943934,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6346",
+                            "name": "Forskningsparken T",
+                            "longitude": 10.72088,
+                            "latitude": 59.94383
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11490",
+                        "longitude": 10.717689,
+                        "latitude": 59.945754,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6261",
+                            "name": "Gaustadalléen",
+                            "longitude": 10.717591,
+                            "latitude": 59.945686
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11500",
+                        "longitude": 10.714754,
+                        "latitude": 59.947742,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6266",
+                            "name": "Rikshospitalet",
+                            "longitude": 10.715126,
+                            "latitude": 59.947704
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "RUT:JourneyPattern:17-293",
+                "name": "17 2 to Rikshospitalet (RB:NSR:Quay:11500) from Stortorvet (RB:NSR:Quay:7512) express",
+                "pointsOnLink": {
+                    "length": 489,
+                    "points": "{stlJ{uq`A@G@K@K@K?I?KAIAIAGEIGKGGGGA??AC?CAE?E?EBGFCBADA?CFCFELCHQt@Mb@CJ?@IZ??ABAFENGTABIXGVOj@Uv@Mb@Mb@Oj@Oj@c@hBGVKb@m@dCENCHCFCDEFCBEBCBG@G@C?OBG@G@QFODKBa@JMD??A?A@MD[JSHYJE@EBCBEDCDCFCHAFADAD?FADATEl@ANALCPEVOv@Kj@o@~CCPCLMj@G^S`AKf@Oz@S~@??AJm@xCAHKf@EREPEPCJEPENGPELCFEHELGJ?@EFGJEFCDCBGFEBCBEBGBC@E@E@E@A?G@I@mAHm@DU@G@??[BW@I@C?C@GAE?EAEAECECEEEGGG[c@EGk@y@GGGGCAGAE?A?E@E@CDCDEFCFELkAjFGX?@Md@Kf@IVETCB???BCDELGLGJEHGHKHKJMFWLiB~@KDGDGBKBK@K@q@FS@W@I@G@IBMDKBQH[N[NQHC@??A@OF]Pe@Rs@\\SJOFKD??KDOFw@XIBGBI@E@I@I@K?I?K@IAM?KAMCIAKCICICICIE]QOGMG??EAEC{BeAeAc@A?SIKGwAm@mD_BuB_AOGOGc@SUK??CAYMsAm@kCkA_@QWMsEsBIEECOGKGi@UAAWK??AA]OEAq@[o@YKGKEGAIA??I?E@IBGBGDGHGFMPyA~BILMRcF|HMPINUZMP[h@CDOR??MRyA|BQVORQTQRKJQNKHKFMHMHIDMFOFKDMDKBM@MBOBM@OBYBcD\\gBRKBC@GDEBEFEDCDCDEHCHCJCHCJU|@?BSt@??EPqBtIOh@I\\K\\GPITIVGRQ\\k@rA]v@KT??A@ITWj@EJCFq@fBoAjDKVGPENEPEPGXGXABGXEXELELELELGPQ\\w@lB]v@A@M\\??KVKTOZIRGNGPEPCPCNCNCPAVCZ?XA\\Al@EzCAP?PATAPCNCLEJCLEFCFEFEHGDEBGB??GBG@G?GAGAECECSGeAe@e@UQG??OIICOIMEIGKGMI_BaAKGKGGCGAEAG?E@E@E@EBEBEBEDEFEFEJELENCLCLANCPARWrDK`BKxAAJ?HAD?H?J?L?P?L?HAL?FEd@"
+                },
+                "quays": [
+                    {
+                        "id": "NSR:Quay:7512",
+                        "longitude": 10.745391,
+                        "latitude": 59.912444,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4160",
+                            "name": "Stortorvet",
+                            "longitude": 10.745399,
+                            "latitude": 59.912978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:100634",
+                        "longitude": 10.745149,
+                        "latitude": 59.913153,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4160",
+                            "name": "Stortorvet",
+                            "longitude": 10.745399,
+                            "latitude": 59.912978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7530",
+                        "longitude": 10.7413,
+                        "latitude": 59.915256,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4168",
+                            "name": "Tinghuset",
+                            "longitude": 10.741279,
+                            "latitude": 59.915178
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7539",
+                        "longitude": 10.737019,
+                        "latitude": 59.916912,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4174",
+                            "name": "Tullinløkka",
+                            "longitude": 10.737199,
+                            "latitude": 59.916816
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7556",
+                        "longitude": 10.734589,
+                        "latitude": 59.918855,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4183",
+                            "name": "Holbergs plass",
+                            "longitude": 10.734538,
+                            "latitude": 59.918791
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11484",
+                        "longitude": 10.733122,
+                        "latitude": 59.9209,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6258",
+                            "name": "Frydenlund",
+                            "longitude": 10.733055,
+                            "latitude": 59.920898
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11480",
+                        "longitude": 10.731703,
+                        "latitude": 59.923474,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6256",
+                            "name": "Dalsbergstien",
+                            "longitude": 10.731591,
+                            "latitude": 59.923567
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11494",
+                        "longitude": 10.731229,
+                        "latitude": 59.926122,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6263",
+                            "name": "Bislett",
+                            "longitude": 10.731073,
+                            "latitude": 59.925967
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11498",
+                        "longitude": 10.733149,
+                        "latitude": 59.92967,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6265",
+                            "name": "Stensgata",
+                            "longitude": 10.733004,
+                            "latitude": 59.929509
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11508",
+                        "longitude": 10.734887,
+                        "latitude": 59.932838,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6269",
+                            "name": "Adamstuen",
+                            "longitude": 10.734756,
+                            "latitude": 59.932738
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11587",
+                        "longitude": 10.731934,
+                        "latitude": 59.936349,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6307",
+                            "name": "Ullevål sykehus",
+                            "longitude": 10.732007,
+                            "latitude": 59.936235
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11626",
+                        "longitude": 10.728823,
+                        "latitude": 59.940435,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6327",
+                            "name": "John Colletts plass",
+                            "longitude": 10.729024,
+                            "latitude": 59.940321
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11650",
+                        "longitude": 10.725177,
+                        "latitude": 59.941942,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6340",
+                            "name": "Universitetet Blindern",
+                            "longitude": 10.724783,
+                            "latitude": 59.942061
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11663",
+                        "longitude": 10.720832,
+                        "latitude": 59.943934,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6346",
+                            "name": "Forskningsparken T",
+                            "longitude": 10.72088,
+                            "latitude": 59.94383
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11490",
+                        "longitude": 10.717689,
+                        "latitude": 59.945754,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6261",
+                            "name": "Gaustadalléen",
+                            "longitude": 10.717591,
+                            "latitude": 59.945686
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11500",
+                        "longitude": 10.714754,
+                        "latitude": 59.947742,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6266",
+                            "name": "Rikshospitalet",
+                            "longitude": 10.715126,
+                            "latitude": 59.947704
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "RUT:JourneyPattern:17-292",
+                "name": "17 2 to Heimdalsgata (RB:NSR:Quay:104054) from Disen (RB:NSR:Quay:11169) express",
+                "pointsOnLink": {
+                    "length": 257,
+                    "points": "mf{lJc|y`A??ABCBABADADAFADHxAPxCT|Dh@tJ^hGZlFFhADz@BFBFBDBBBBFBB@D?@?@?DAHEx@Y????RIlBq@~Bw@^KTITKVMVM`Ae@BAv@_@LGPIh@UFEFC??HETM~@g@DCNI@AZOtB{@dCqA^UDCJIXWVWV_@T]N[FK??@CJULUJKDE@AHAF?F@FFDFt@nBFLNNLBNANIPOLQZi@X[XONAPFPJPVlAfD`@fAl@fB^z@Xt@r@xA^r@^p@^j@`@f@l@r@VRXT\\Tp@`@d@V??@@HDNHDBRJTHVHJBVHRDRDNBJBD?LBVBVBTBR@XB^BnAHl@Ff@BnAH^D\\Bh@FTBD???RBF@PBZBbDZt@HL@J@B@JBJBFDXNt@`@dAl@bAp@?@LH\\THHvAbA\\V?@@???FFFFDDBBFHFNFJFNBD@@HHFDFBH@N@h@BVBJBD@DBDD@@FFN\\\\n@x@~AZl@nDdHHNDFt@|Af@~@HPLT\\n@PXFLBD??BD@BBDHLJNLLDF`AjAJPDDJJnCdDLPFFDDDJJRt@dBJT`@|@N\\FN?@DLBH??@BDLH\\?BFV`@|B^jBNx@BL@DLn@Lt@^jBx@dEDVFX?@BLv@`EF\\FX?@bAnF\\fBNr@"
+                },
+                "quays": [
+                    {
+                        "id": "NSR:Quay:11169",
+                        "longitude": 10.787448,
+                        "latitude": 59.946151,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6083",
+                            "name": "Disen",
+                            "longitude": 10.787284,
+                            "latitude": 59.946228
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11132",
+                        "longitude": 10.779887,
+                        "latitude": 59.944815,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6067",
+                            "name": "Storo",
+                            "longitude": 10.779921,
+                            "latitude": 59.944953
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11103",
+                        "longitude": 10.781423,
+                        "latitude": 59.941828,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6050",
+                            "name": "Grefsen stasjon",
+                            "longitude": 10.781397,
+                            "latitude": 59.942022
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11095",
+                        "longitude": 10.783545,
+                        "latitude": 59.938987,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6045",
+                            "name": "Sinsenkrysset",
+                            "longitude": 10.783368,
+                            "latitude": 59.939126
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11057",
+                        "longitude": 10.778953,
+                        "latitude": 59.933957,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6024",
+                            "name": "Sinsenterrassen",
+                            "longitude": 10.779308,
+                            "latitude": 59.93437
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11054",
+                        "longitude": 10.778088,
+                        "latitude": 59.93021,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62025",
+                            "name": "Rosenhoff",
+                            "longitude": 10.77817,
+                            "latitude": 59.930227
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11044",
+                        "longitude": 10.776367,
+                        "latitude": 59.926481,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6017",
+                            "name": "Carl Berners plass",
+                            "longitude": 10.776642,
+                            "latitude": 59.926744
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104048",
+                        "longitude": 10.771435,
+                        "latitude": 59.922876,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62028",
+                            "name": "Sofienberg",
+                            "longitude": 10.771738,
+                            "latitude": 59.922978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104051",
+                        "longitude": 10.768133,
+                        "latitude": 59.920505,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62029",
+                            "name": "Lakkegata skole",
+                            "longitude": 10.768482,
+                            "latitude": 59.920612
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104054",
+                        "longitude": 10.760483,
+                        "latitude": 59.9183,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62031",
+                            "name": "Heimdalsgata",
+                            "longitude": 10.760851,
+                            "latitude": 59.918382
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "RUT:JourneyPattern:17-287",
+                "name": "17 2 to Rikshospitalet (RB:NSR:Quay:11500) from Stortorvet (RB:NSR:Quay:100634)",
+                "pointsOnLink": {
+                    "length": 455,
+                    "points": "cxtlJatq`AABAFENGTABIXGVOj@Uv@Mb@Mb@Oj@Oj@c@hBGVKb@m@dCENCHCFCDEFCBEBCBG@G@C?OBG@G@QFODKBa@JMD??A?A@MD[JSHYJE@EBCBEDCDCFCHAFADAD?FADATEl@ANALCPEVOv@Kj@o@~CCPCLMj@G^S`AKf@Oz@S~@??AJm@xCAHKf@EREPEPCJEPENGPELCFEHELGJ?@EFGJEFCDCBGFEBCBEBGBC@E@E@E@A?G@I@mAHm@DU@G@??[BW@I@C?C@GAE?EAEAECECEEEGGG[c@EGk@y@GGGGCAGAE?A?E@E@CDCDEFCFELkAjFGX?@Md@Kf@IVETCB???BCDELGLGJEHGHKHKJMFWLiB~@KDGDGBKBK@K@q@FS@W@I@G@IBMDKBQH[N[NQHC@??A@OF]Pe@Rs@\\SJOFKD??KDOFw@XIBGBI@E@I@I@K?I?K@IAM?KAMCIAKCICICICIE]QOGMG??EAEC{BeAeAc@A?SIKGwAm@mD_BuB_AOGOGc@SUK??CAYMsAm@kCkA_@QWMsEsBIEECOGKGi@UAAWK??AA]OEAq@[o@YKGKEGAIA??I?E@IBGBGDGHGFMPyA~BILMRcF|HMPINUZMP[h@CDOR??MRyA|BQVORQTQRKJQNKHKFMHMHIDMFOFKDMDKBM@MBOBM@OBYBcD\\gBRKBC@GDEBEFEDCDCDEHCHCJCHCJU|@?BSt@??EPqBtIOh@I\\K\\GPITIVGRQ\\k@rA]v@KT??A@ITWj@EJCFq@fBoAjDKVGPENEPEPGXGXABGXEXELELELELGPQ\\w@lB]v@A@M\\??KVKTOZIRGNGPEPCPCNCNCPAVCZ?XA\\Al@EzCAP?PATAPCNCLEJCLEFCFEFEHGDEBGB??GBG@G?GAGAECECSGeAe@e@UQG??OIICOIMEIGKGMI_BaAKGKGGCGAEAG?E@E@E@EBEBEBEDEFEFEJELENCLCLANCPARWrDK`BKxAAJ?HAD?H?J?L?P?L?HAL?FEd@"
+                },
+                "quays": [
+                    {
+                        "id": "NSR:Quay:100634",
+                        "longitude": 10.745149,
+                        "latitude": 59.913153,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4160",
+                            "name": "Stortorvet",
+                            "longitude": 10.745399,
+                            "latitude": 59.912978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7530",
+                        "longitude": 10.7413,
+                        "latitude": 59.915256,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4168",
+                            "name": "Tinghuset",
+                            "longitude": 10.741279,
+                            "latitude": 59.915178
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7539",
+                        "longitude": 10.737019,
+                        "latitude": 59.916912,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4174",
+                            "name": "Tullinløkka",
+                            "longitude": 10.737199,
+                            "latitude": 59.916816
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7556",
+                        "longitude": 10.734589,
+                        "latitude": 59.918855,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4183",
+                            "name": "Holbergs plass",
+                            "longitude": 10.734538,
+                            "latitude": 59.918791
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11484",
+                        "longitude": 10.733122,
+                        "latitude": 59.9209,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6258",
+                            "name": "Frydenlund",
+                            "longitude": 10.733055,
+                            "latitude": 59.920898
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11480",
+                        "longitude": 10.731703,
+                        "latitude": 59.923474,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6256",
+                            "name": "Dalsbergstien",
+                            "longitude": 10.731591,
+                            "latitude": 59.923567
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11494",
+                        "longitude": 10.731229,
+                        "latitude": 59.926122,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6263",
+                            "name": "Bislett",
+                            "longitude": 10.731073,
+                            "latitude": 59.925967
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11498",
+                        "longitude": 10.733149,
+                        "latitude": 59.92967,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6265",
+                            "name": "Stensgata",
+                            "longitude": 10.733004,
+                            "latitude": 59.929509
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11508",
+                        "longitude": 10.734887,
+                        "latitude": 59.932838,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6269",
+                            "name": "Adamstuen",
+                            "longitude": 10.734756,
+                            "latitude": 59.932738
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11587",
+                        "longitude": 10.731934,
+                        "latitude": 59.936349,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6307",
+                            "name": "Ullevål sykehus",
+                            "longitude": 10.732007,
+                            "latitude": 59.936235
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11626",
+                        "longitude": 10.728823,
+                        "latitude": 59.940435,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6327",
+                            "name": "John Colletts plass",
+                            "longitude": 10.729024,
+                            "latitude": 59.940321
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11650",
+                        "longitude": 10.725177,
+                        "latitude": 59.941942,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6340",
+                            "name": "Universitetet Blindern",
+                            "longitude": 10.724783,
+                            "latitude": 59.942061
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11663",
+                        "longitude": 10.720832,
+                        "latitude": 59.943934,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6346",
+                            "name": "Forskningsparken T",
+                            "longitude": 10.72088,
+                            "latitude": 59.94383
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11490",
+                        "longitude": 10.717689,
+                        "latitude": 59.945754,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6261",
+                            "name": "Gaustadalléen",
+                            "longitude": 10.717591,
+                            "latitude": 59.945686
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11500",
+                        "longitude": 10.714754,
+                        "latitude": 59.947742,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6266",
+                            "name": "Rikshospitalet",
+                            "longitude": 10.715126,
+                            "latitude": 59.947704
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "RUT:JourneyPattern:17-298",
+                "name": "17 2 to Rikshospitalet (RB:NSR:Quay:11500) from Grefsen stasjon (RB:NSR:Quay:11103) via Storgata (RB:NSR:Quay:105274)",
+                "pointsOnLink": {
+                    "length": 810,
+                    "points": "mkzlJawx`AHETM~@g@DCNI@AZOtB{@dCqA^UDCJIXWVWV_@T]N[FK??@CJULUJKDE@AHAF?F@FFDFt@nBFLNNLBNANIPOLQZi@X[XONAPFPJPVlAfD`@fAl@fB^z@Xt@r@xA^r@^p@^j@`@f@l@r@VRXT\\Tp@`@d@V??@@HDNHDBRJTHVHJBVHRDRDNBJBD?LBVBVBTBR@XB^BnAHl@Ff@BnAH^D\\Bh@FTBD???RBF@PBZBbDZt@HL@J@B@JBJBFDXNt@`@dAl@bAp@?@LH\\THHvAbA\\V?@@???FFFFDDBBFHFNFJFNBD@@HHFDFBH@N@h@BVBJBD@DBDD@@FFN\\\\n@x@~AZl@nDdHHNDFt@|Af@~@HPLT\\n@PXFLBD??BD@BBDHLJNLLDF`AjAJPDDJJnCdDLPFFDDDJJRt@dBJT`@|@N\\FN?@DLBH??@BDLH\\?BFV`@|B^jBNx@BL@DLn@Lt@^jBx@dEDVFX?@BLv@`EF\\FX?@bAnF\\fBNr@DT??BJDVFXBPNv@FTBLBLBHBJBHBFDHBDBB@DFFTVBBBBHJFHFFFHFFNVrB|C@@@@??JNHLFJJLLPX`@^l@BDB@@BV^j@`An@zArBlHjBxH~B|KBF??ZzAJ^LJbAkA?AhAoAFEBADALBJBBBLJRR?@BBDF@DBD@D@D?B@D@F?F@H?H?F?H?FCjACp@?H??AZ?PCjAAR?NAJ?HCLAHCHAFCFCFEHGHCBIJA@EFGHEHGLCLENEZGb@?BCHCNCXCPAPARAPAN?LAL@J?JBH@JBFHT@D@@@F?F@H?@?H?D?BAHAJCJCHCLMf@Mb@CJ?@IZ??ABAFENGTABIXGVOj@Uv@Mb@Mb@Oj@Oj@c@hBGVKb@m@dCENCHCFCDEFCBEBCBG@G@C?OBG@G@QFODKBa@JMD??A?A@MD[JSHYJE@EBCBEDCDCFCHAFADAD?FADATEl@ANALCPEVOv@Kj@o@~CCPCLMj@G^S`AKf@Oz@S~@??AJm@xCAHKf@EREPEPCJEPENGPELCFEHELGJ?@EFGJEFCDCBGFEBCBEBGBC@E@E@E@A?G@I@mAHm@DU@G@??[BW@I@C?C@GAE?EAEAECECEEEGGG[c@EGk@y@GGGGCAGAE?A?E@E@CDCDEFCFELkAjFGX?@Md@Kf@IVETCB???BCDELGLGJEHGHKHKJMFWLiB~@KDGDGBKBK@K@q@FS@W@I@G@IBMDKBQH[N[NQHC@??A@OF]Pe@Rs@\\SJOFKD??KDOFw@XIBGBI@E@I@I@K?I?K@IAM?KAMCIAKCICICICIE]QOGMG??EAEC{BeAeAc@A?SIKGwAm@mD_BuB_AOGOGc@SUK??CAYMsAm@kCkA_@QWMsEsBIEECOGKGi@UAAWK??AA]OEAq@[o@YKGKEGAIA??I?E@IBGBGDGHGFMPyA~BILMRcF|HMPINUZMP[h@CDOR??MRyA|BQVORQTQRKJQNKHKFMHMHIDMFOFKDMDKBM@MBOBM@OBYBcD\\gBRKBC@GDEBEFEDCDCDEHCHCJCHCJU|@?BSt@??EPqBtIOh@I\\K\\GPITIVGRQ\\k@rA]v@KT??A@ITWj@EJCFq@fBoAjDKVGPENEPEPGXGXABGXEXELELELELGPQ\\w@lB]v@A@M\\??KVKTOZIRGNGPEPCPCNCNCPAVCZ?XA\\Al@EzCAP?PATAPCNCLEJCLEFCFEFEHGDEBGB??GBG@G?GAGAECECSGeAe@e@UQG??OIICOIMEIGKGMI_BaAKGKGGCGAEAG?E@E@E@EBEBEBEDEFEFEJELENCLCLANCPARWrDK`BKxAAJ?HAD?H?J?L?P?L?HAL?FEd@"
+                },
+                "quays": [
+                    {
+                        "id": "NSR:Quay:11103",
+                        "longitude": 10.781423,
+                        "latitude": 59.941828,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6050",
+                            "name": "Grefsen stasjon",
+                            "longitude": 10.781397,
+                            "latitude": 59.942022
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11095",
+                        "longitude": 10.783545,
+                        "latitude": 59.938987,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6045",
+                            "name": "Sinsenkrysset",
+                            "longitude": 10.783368,
+                            "latitude": 59.939126
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11057",
+                        "longitude": 10.778953,
+                        "latitude": 59.933957,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6024",
+                            "name": "Sinsenterrassen",
+                            "longitude": 10.779308,
+                            "latitude": 59.93437
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11054",
+                        "longitude": 10.778088,
+                        "latitude": 59.93021,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62025",
+                            "name": "Rosenhoff",
+                            "longitude": 10.77817,
+                            "latitude": 59.930227
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11044",
+                        "longitude": 10.776367,
+                        "latitude": 59.926481,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6017",
+                            "name": "Carl Berners plass",
+                            "longitude": 10.776642,
+                            "latitude": 59.926744
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104048",
+                        "longitude": 10.771435,
+                        "latitude": 59.922876,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62028",
+                            "name": "Sofienberg",
+                            "longitude": 10.771738,
+                            "latitude": 59.922978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104051",
+                        "longitude": 10.768133,
+                        "latitude": 59.920505,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62029",
+                            "name": "Lakkegata skole",
+                            "longitude": 10.768482,
+                            "latitude": 59.920612
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104054",
+                        "longitude": 10.760483,
+                        "latitude": 59.9183,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62031",
+                            "name": "Heimdalsgata",
+                            "longitude": 10.760851,
+                            "latitude": 59.918382
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104872",
+                        "longitude": 10.757847,
+                        "latitude": 59.916785,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:61249",
+                            "name": "Nybrua",
+                            "longitude": 10.758276,
+                            "latitude": 59.917048
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:105274",
+                        "longitude": 10.750876,
+                        "latitude": 59.913816,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:61422",
+                            "name": "Storgata",
+                            "longitude": 10.751482,
+                            "latitude": 59.913957
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7176",
+                        "longitude": 10.749612,
+                        "latitude": 59.912325,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:3986",
+                            "name": "Jernbanetorget",
+                            "longitude": 10.749892,
+                            "latitude": 59.912282
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:100634",
+                        "longitude": 10.745149,
+                        "latitude": 59.913153,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4160",
+                            "name": "Stortorvet",
+                            "longitude": 10.745399,
+                            "latitude": 59.912978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7530",
+                        "longitude": 10.7413,
+                        "latitude": 59.915256,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4168",
+                            "name": "Tinghuset",
+                            "longitude": 10.741279,
+                            "latitude": 59.915178
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7539",
+                        "longitude": 10.737019,
+                        "latitude": 59.916912,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4174",
+                            "name": "Tullinløkka",
+                            "longitude": 10.737199,
+                            "latitude": 59.916816
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7556",
+                        "longitude": 10.734589,
+                        "latitude": 59.918855,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4183",
+                            "name": "Holbergs plass",
+                            "longitude": 10.734538,
+                            "latitude": 59.918791
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11484",
+                        "longitude": 10.733122,
+                        "latitude": 59.9209,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6258",
+                            "name": "Frydenlund",
+                            "longitude": 10.733055,
+                            "latitude": 59.920898
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11480",
+                        "longitude": 10.731703,
+                        "latitude": 59.923474,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6256",
+                            "name": "Dalsbergstien",
+                            "longitude": 10.731591,
+                            "latitude": 59.923567
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11494",
+                        "longitude": 10.731229,
+                        "latitude": 59.926122,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6263",
+                            "name": "Bislett",
+                            "longitude": 10.731073,
+                            "latitude": 59.925967
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11498",
+                        "longitude": 10.733149,
+                        "latitude": 59.92967,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6265",
+                            "name": "Stensgata",
+                            "longitude": 10.733004,
+                            "latitude": 59.929509
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11508",
+                        "longitude": 10.734887,
+                        "latitude": 59.932838,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6269",
+                            "name": "Adamstuen",
+                            "longitude": 10.734756,
+                            "latitude": 59.932738
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11587",
+                        "longitude": 10.731934,
+                        "latitude": 59.936349,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6307",
+                            "name": "Ullevål sykehus",
+                            "longitude": 10.732007,
+                            "latitude": 59.936235
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11626",
+                        "longitude": 10.728823,
+                        "latitude": 59.940435,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6327",
+                            "name": "John Colletts plass",
+                            "longitude": 10.729024,
+                            "latitude": 59.940321
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11650",
+                        "longitude": 10.725177,
+                        "latitude": 59.941942,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6340",
+                            "name": "Universitetet Blindern",
+                            "longitude": 10.724783,
+                            "latitude": 59.942061
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11663",
+                        "longitude": 10.720832,
+                        "latitude": 59.943934,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6346",
+                            "name": "Forskningsparken T",
+                            "longitude": 10.72088,
+                            "latitude": 59.94383
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11490",
+                        "longitude": 10.717689,
+                        "latitude": 59.945754,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6261",
+                            "name": "Gaustadalléen",
+                            "longitude": 10.717591,
+                            "latitude": 59.945686
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11500",
+                        "longitude": 10.714754,
+                        "latitude": 59.947742,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6266",
+                            "name": "Rikshospitalet",
+                            "longitude": 10.715126,
+                            "latitude": 59.947704
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "RUT:JourneyPattern:17-285",
+                "name": "17 2 to Heimdalsgata (RB:NSR:Quay:104054) from Disen (RB:NSR:Quay:11169) express",
+                "pointsOnLink": {
+                    "length": 257,
+                    "points": "mf{lJc|y`A??ABCBABADADAFADHxAPxCT|Dh@tJ^hGZlFFhADz@BFBFBDBBBBFBB@D?@?@?DAHEx@Y????RIlBq@~Bw@^KTITKVMVM`Ae@BAv@_@LGPIh@UFEFC??HETM~@g@DCNI@AZOtB{@dCqA^UDCJIXWVWV_@T]N[FK??@CJULUJKDE@AHAF?F@FFDFt@nBFLNNLBNANIPOLQZi@X[XONAPFPJPVlAfD`@fAl@fB^z@Xt@r@xA^r@^p@^j@`@f@l@r@VRXT\\Tp@`@d@V??@@HDNHDBRJTHVHJBVHRDRDNBJBD?LBVBVBTBR@XB^BnAHl@Ff@BnAH^D\\Bh@FTBD???RBF@PBZBbDZt@HL@J@B@JBJBFDXNt@`@dAl@bAp@?@LH\\THHvAbA\\V?@@???FFFFDDBBFHFNFJFNBD@@HHFDFBH@N@h@BVBJBD@DBDD@@FFN\\\\n@x@~AZl@nDdHHNDFt@|Af@~@HPLT\\n@PXFLBD??BD@BBDHLJNLLDF`AjAJPDDJJnCdDLPFFDDDJJRt@dBJT`@|@N\\FN?@DLBH??@BDLH\\?BFV`@|B^jBNx@BL@DLn@Lt@^jBx@dEDVFX?@BLv@`EF\\FX?@bAnF\\fBNr@"
+                },
+                "quays": [
+                    {
+                        "id": "NSR:Quay:11169",
+                        "longitude": 10.787448,
+                        "latitude": 59.946151,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6083",
+                            "name": "Disen",
+                            "longitude": 10.787284,
+                            "latitude": 59.946228
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11132",
+                        "longitude": 10.779887,
+                        "latitude": 59.944815,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6067",
+                            "name": "Storo",
+                            "longitude": 10.779921,
+                            "latitude": 59.944953
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11103",
+                        "longitude": 10.781423,
+                        "latitude": 59.941828,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6050",
+                            "name": "Grefsen stasjon",
+                            "longitude": 10.781397,
+                            "latitude": 59.942022
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11095",
+                        "longitude": 10.783545,
+                        "latitude": 59.938987,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6045",
+                            "name": "Sinsenkrysset",
+                            "longitude": 10.783368,
+                            "latitude": 59.939126
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11057",
+                        "longitude": 10.778953,
+                        "latitude": 59.933957,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6024",
+                            "name": "Sinsenterrassen",
+                            "longitude": 10.779308,
+                            "latitude": 59.93437
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11054",
+                        "longitude": 10.778088,
+                        "latitude": 59.93021,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62025",
+                            "name": "Rosenhoff",
+                            "longitude": 10.77817,
+                            "latitude": 59.930227
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11044",
+                        "longitude": 10.776367,
+                        "latitude": 59.926481,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6017",
+                            "name": "Carl Berners plass",
+                            "longitude": 10.776642,
+                            "latitude": 59.926744
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104048",
+                        "longitude": 10.771435,
+                        "latitude": 59.922876,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62028",
+                            "name": "Sofienberg",
+                            "longitude": 10.771738,
+                            "latitude": 59.922978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104051",
+                        "longitude": 10.768133,
+                        "latitude": 59.920505,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62029",
+                            "name": "Lakkegata skole",
+                            "longitude": 10.768482,
+                            "latitude": 59.920612
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104054",
+                        "longitude": 10.760483,
+                        "latitude": 59.9183,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62031",
+                            "name": "Heimdalsgata",
+                            "longitude": 10.760851,
+                            "latitude": 59.918382
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "RUT:JourneyPattern:17-300",
+                "name": "17 2 to Rikshospitalet (RB:NSR:Quay:11500) from Grefsen stasjon (RB:NSR:Quay:11103) via Lilletorget (RB:NSR:Quay:102527)",
+                "pointsOnLink": {
+                    "length": 1018,
+                    "points": "mkzlJawx`AHETM~@g@DCNI@AZOtB{@dCqA^UDCJIXWVWV_@T]N[FK??@CJULUJKDE@AHAF?F@FFDFt@nBFLNNLBNANIPOLQZi@X[XONAPFPJPVlAfD`@fAl@fB^z@Xt@r@xA^r@^p@^j@`@f@l@r@VRXT\\Tp@`@d@V??@@HDNHDBRJTHVHJBVHRDRDNBJBD?LBVBVBTBR@XB^BnAHl@Ff@BnAH^D\\Bh@FTBD???RBF@PBZBbDZt@HL@J@B@JBJBFDXNt@`@dAl@bAp@?@LH\\THHvAbA\\V?@@???FFFFDDBBFHFNFJFNBD@@HHFDFBH@N@h@BVBJBD@DBDD@@FFN\\\\n@x@~AZl@nDdHHNDFt@|Af@~@HPLT\\n@PXFLBD??BD@BBDHLJNLLDF`AjAJPDDJJnCdDLPFFDDDJJRt@dBJT`@|@N\\FN?@DLBH??@BDLH\\?BFV`@|B^jBNx@BL@DLn@Lt@^jBx@dEDVFX?@BLv@`EF\\FX?@bAnF\\fBNr@DT??BJDVFXBPNv@FTBLBLBHBJBHBFDHBDBB@DFFTVBBBBHJFHFFFHFFNVrB|C@@?D??|OtC??CGNVBFDFDFDBDBFDB@BB@BBB@D@D@D@D?B?D@D?F?F?P?P?R?P@N@N?NBL@T~@~KDd@DZD`@D`@D^DZDZh@nDBRBLBJuF{b@NTBFDFDFDBDBFDB@BB@BBB@D@D@D@D?B?D@D?F?F?P?P?R?P@N@N?NBL@T~@~KDd@DZD`@D`@D^DZDZh@nDBRBLBJqDi`@@B@D@D?B?D@D?F?F?P?P?R?P@N@N?NBL@T~@~KDd@DZD`@D`@D^DZDZh@nDBRBLBJwSob@B@@B??D@@@B?B?B?BABCDEBCBGBIJ]J_@J_@Jc@Ja@Lo@RgA@I@G@G@CBE@C@CBC@ABA@?BAB?B?@@BBDBRTJLNTNTLNFHDJFJDHFNDLFNHPHPJTVf@Zh@Vb@BFDFDFDBDBFDB@BB@BBB@D@D@D@D?B?D@D?F?F?P?P?R?P@N@N?NBL@T~@~KDd@DZD`@D`@D^DZDZh@nDBRBLBJyA}K?FDZD`@D`@D^DZDZ@@f@lDBRBLBJBH@BDJBFDFBDDDFDFHDBBBLJRR?@BBDF@DBD?@@B@D?B@D@F?F@H?H?F?H?FCjACp@?H??AZ?PCjAAR?NAJ?HCLAHCHAFCFCFEHGHCBIJA@EFGHEHGLCLENEZGb@?BCHCNCXCPAPARAPAN?LAL@J?JBH@JBFHT@D@@@F?F@H?@?H?D?BAHAJCJCHCLMf@Mb@CJ?@IZ??ABAFENGTABIXGVOj@Uv@Mb@Mb@Oj@Oj@c@hBGVKb@m@dCENCHCFCDEFCBEBCBG@G@C?OBG@G@QFODKBa@JMD??A?A@MD[JSHYJE@EBCBEDCDCFCHAFADAD?FADATEl@ANALCPEVOv@Kj@o@~CCPCLMj@G^S`AKf@Oz@S~@??AJm@xCAHKf@EREPEPCJEPENGPELCFEHELGJ?@EFGJEFCDCBGFEBCBEBGBC@E@E@E@A?G@I@mAHm@DU@G@??[BW@I@C?C@GAE?EAEAECECEEEGGG[c@EGk@y@GGGGCAGAE?A?E@E@CDCDEFCFELkAjFGX?@Md@Kf@IVETCB???BCDELGLGJEHGHKHKJMFWLiB~@KDGDGBKBK@K@q@FS@W@I@G@IBMDKBQH[N[NQHC@??A@OF]Pe@Rs@\\SJOFKD??KDOFw@XIBGBI@E@I@I@K?I?K@IAM?KAMCIAKCICICICIE]QOGMG??EAEC{BeAeAc@A?SIKGwAm@mD_BuB_AOGOGc@SUK??CAYMsAm@kCkA_@QWMsEsBIEECOGKGi@UAAWK??AA]OEAq@[o@YKGKEGAIA??I?E@IBGBGDGHGFMPyA~BILMRcF|HMPINUZMP[h@CDOR??MRyA|BQVORQTQRKJQNKHKFMHMHIDMFOFKDMDKBM@MBOBM@OBYBcD\\gBRKBC@GDEBEFEDCDCDEHCHCJCHCJU|@?BSt@??EPqBtIOh@I\\K\\GPITIVGRQ\\k@rA]v@KT??A@ITWj@EJCFq@fBoAjDKVGPENEPEPGXGXABGXEXELELELELGPQ\\w@lB]v@A@M\\??KVKTOZIRGNGPEPCPCNCNCPAVCZ?XA\\Al@EzCAP?PATAPCNCLEJCLEFCFEFEHGDEBGB??GBG@G?GAGAECECSGeAe@e@UQG??OIICOIMEIGKGMI_BaAKGKGGCGAEAG?E@E@E@EBEBEBEDEFEFEJELENCLCLANCPARWrDK`BKxAAJ?HAD?H?J?L?P?L?HAL?FEd@"
+                },
+                "quays": [
+                    {
+                        "id": "NSR:Quay:11103",
+                        "longitude": 10.781423,
+                        "latitude": 59.941828,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6050",
+                            "name": "Grefsen stasjon",
+                            "longitude": 10.781397,
+                            "latitude": 59.942022
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11095",
+                        "longitude": 10.783545,
+                        "latitude": 59.938987,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6045",
+                            "name": "Sinsenkrysset",
+                            "longitude": 10.783368,
+                            "latitude": 59.939126
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11057",
+                        "longitude": 10.778953,
+                        "latitude": 59.933957,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6024",
+                            "name": "Sinsenterrassen",
+                            "longitude": 10.779308,
+                            "latitude": 59.93437
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11054",
+                        "longitude": 10.778088,
+                        "latitude": 59.93021,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62025",
+                            "name": "Rosenhoff",
+                            "longitude": 10.77817,
+                            "latitude": 59.930227
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11044",
+                        "longitude": 10.776367,
+                        "latitude": 59.926481,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6017",
+                            "name": "Carl Berners plass",
+                            "longitude": 10.776642,
+                            "latitude": 59.926744
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104048",
+                        "longitude": 10.771435,
+                        "latitude": 59.922876,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62028",
+                            "name": "Sofienberg",
+                            "longitude": 10.771738,
+                            "latitude": 59.922978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104051",
+                        "longitude": 10.768133,
+                        "latitude": 59.920505,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62029",
+                            "name": "Lakkegata skole",
+                            "longitude": 10.768482,
+                            "latitude": 59.920612
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104054",
+                        "longitude": 10.760483,
+                        "latitude": 59.9183,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62031",
+                            "name": "Heimdalsgata",
+                            "longitude": 10.760851,
+                            "latitude": 59.918382
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104872",
+                        "longitude": 10.757847,
+                        "latitude": 59.916785,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:61249",
+                            "name": "Nybrua",
+                            "longitude": 10.758276,
+                            "latitude": 59.917048
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:102527",
+                        "longitude": 10.757096,
+                        "latitude": 59.914074,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:60156",
+                            "name": "Lilletorget",
+                            "longitude": 10.757513,
+                            "latitude": 59.914291
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7176",
+                        "longitude": 10.749612,
+                        "latitude": 59.912325,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:3986",
+                            "name": "Jernbanetorget",
+                            "longitude": 10.749892,
+                            "latitude": 59.912282
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:100634",
+                        "longitude": 10.745149,
+                        "latitude": 59.913153,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4160",
+                            "name": "Stortorvet",
+                            "longitude": 10.745399,
+                            "latitude": 59.912978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7530",
+                        "longitude": 10.7413,
+                        "latitude": 59.915256,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4168",
+                            "name": "Tinghuset",
+                            "longitude": 10.741279,
+                            "latitude": 59.915178
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7539",
+                        "longitude": 10.737019,
+                        "latitude": 59.916912,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4174",
+                            "name": "Tullinløkka",
+                            "longitude": 10.737199,
+                            "latitude": 59.916816
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7556",
+                        "longitude": 10.734589,
+                        "latitude": 59.918855,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4183",
+                            "name": "Holbergs plass",
+                            "longitude": 10.734538,
+                            "latitude": 59.918791
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11484",
+                        "longitude": 10.733122,
+                        "latitude": 59.9209,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6258",
+                            "name": "Frydenlund",
+                            "longitude": 10.733055,
+                            "latitude": 59.920898
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11480",
+                        "longitude": 10.731703,
+                        "latitude": 59.923474,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6256",
+                            "name": "Dalsbergstien",
+                            "longitude": 10.731591,
+                            "latitude": 59.923567
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11494",
+                        "longitude": 10.731229,
+                        "latitude": 59.926122,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6263",
+                            "name": "Bislett",
+                            "longitude": 10.731073,
+                            "latitude": 59.925967
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11498",
+                        "longitude": 10.733149,
+                        "latitude": 59.92967,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6265",
+                            "name": "Stensgata",
+                            "longitude": 10.733004,
+                            "latitude": 59.929509
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11508",
+                        "longitude": 10.734887,
+                        "latitude": 59.932838,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6269",
+                            "name": "Adamstuen",
+                            "longitude": 10.734756,
+                            "latitude": 59.932738
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11587",
+                        "longitude": 10.731934,
+                        "latitude": 59.936349,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6307",
+                            "name": "Ullevål sykehus",
+                            "longitude": 10.732007,
+                            "latitude": 59.936235
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11626",
+                        "longitude": 10.728823,
+                        "latitude": 59.940435,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6327",
+                            "name": "John Colletts plass",
+                            "longitude": 10.729024,
+                            "latitude": 59.940321
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11650",
+                        "longitude": 10.725177,
+                        "latitude": 59.941942,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6340",
+                            "name": "Universitetet Blindern",
+                            "longitude": 10.724783,
+                            "latitude": 59.942061
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11663",
+                        "longitude": 10.720832,
+                        "latitude": 59.943934,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6346",
+                            "name": "Forskningsparken T",
+                            "longitude": 10.72088,
+                            "latitude": 59.94383
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11490",
+                        "longitude": 10.717689,
+                        "latitude": 59.945754,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6261",
+                            "name": "Gaustadalléen",
+                            "longitude": 10.717591,
+                            "latitude": 59.945686
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11500",
+                        "longitude": 10.714754,
+                        "latitude": 59.947742,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6266",
+                            "name": "Rikshospitalet",
+                            "longitude": 10.715126,
+                            "latitude": 59.947704
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "RUT:JourneyPattern:17-289",
+                "name": "17 2 to Heimdalsgata (RB:NSR:Quay:104054) from Grefsen stasjon (RB:NSR:Quay:11103)",
+                "pointsOnLink": {
+                    "length": 209,
+                    "points": "mkzlJawx`AHETM~@g@DCNI@AZOtB{@dCqA^UDCJIXWVWV_@T]N[FK??@CJULUJKDE@AHAF?F@FFDFt@nBFLNNLBNANIPOLQZi@X[XONAPFPJPVlAfD`@fAl@fB^z@Xt@r@xA^r@^p@^j@`@f@l@r@VRXT\\Tp@`@d@V??@@HDNHDBRJTHVHJBVHRDRDNBJBD?LBVBVBTBR@XB^BnAHl@Ff@BnAH^D\\Bh@FTBD???RBF@PBZBbDZt@HL@J@B@JBJBFDXNt@`@dAl@bAp@?@LH\\THHvAbA\\V?@@???FFFFDDBBFHFNFJFNBD@@HHFDFBH@N@h@BVBJBD@DBDD@@FFN\\\\n@x@~AZl@nDdHHNDFt@|Af@~@HPLT\\n@PXFLBD??BD@BBDHLJNLLDF`AjAJPDDJJnCdDLPFFDDDJJRt@dBJT`@|@N\\FN?@DLBH??@BDLH\\?BFV`@|B^jBNx@BL@DLn@Lt@^jBx@dEDVFX?@BLv@`EF\\FX?@bAnF\\fBNr@"
+                },
+                "quays": [
+                    {
+                        "id": "NSR:Quay:11103",
+                        "longitude": 10.781423,
+                        "latitude": 59.941828,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6050",
+                            "name": "Grefsen stasjon",
+                            "longitude": 10.781397,
+                            "latitude": 59.942022
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11095",
+                        "longitude": 10.783545,
+                        "latitude": 59.938987,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6045",
+                            "name": "Sinsenkrysset",
+                            "longitude": 10.783368,
+                            "latitude": 59.939126
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11057",
+                        "longitude": 10.778953,
+                        "latitude": 59.933957,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6024",
+                            "name": "Sinsenterrassen",
+                            "longitude": 10.779308,
+                            "latitude": 59.93437
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11054",
+                        "longitude": 10.778088,
+                        "latitude": 59.93021,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62025",
+                            "name": "Rosenhoff",
+                            "longitude": 10.77817,
+                            "latitude": 59.930227
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11044",
+                        "longitude": 10.776367,
+                        "latitude": 59.926481,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6017",
+                            "name": "Carl Berners plass",
+                            "longitude": 10.776642,
+                            "latitude": 59.926744
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104048",
+                        "longitude": 10.771435,
+                        "latitude": 59.922876,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62028",
+                            "name": "Sofienberg",
+                            "longitude": 10.771738,
+                            "latitude": 59.922978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104051",
+                        "longitude": 10.768133,
+                        "latitude": 59.920505,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62029",
+                            "name": "Lakkegata skole",
+                            "longitude": 10.768482,
+                            "latitude": 59.920612
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104054",
+                        "longitude": 10.760483,
+                        "latitude": 59.9183,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62031",
+                            "name": "Heimdalsgata",
+                            "longitude": 10.760851,
+                            "latitude": 59.918382
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "RUT:JourneyPattern:17-271",
+                "name": "17 2 to Grefsen stasjon (RB:NSR:Quay:101950) from Rikshospitalet (RB:NSR:Quay:11500) via Lilletorget (RB:NSR:Quay:102528)",
+                "pointsOnLink": {
+                    "length": 931,
+                    "points": "_p{lJcxk`A@E?GBW@]@U@Q?K@MVuDVuD@UBO@MBMBKBMDKDIDIDGDEFEBAFCBA@AD?FAD@D@FBJFJD^V`Al@JHJFHDLDNHh@T@@RH??DBJDfAd@@@NFFBD@F@F@F?F?HCFCDEFEFGDIDGDKBIBODOBS@Q@Q@W?OD{C@o@@]@Y@W@UBSBMBOBODODQFOHSZs@Xq@BEFQ??Rc@FOn@{APa@HSDKBI@CDODQDUFYH]DWFSDQDODMJYnAiDVo@FS????Pc@HSVk@t@eBn@wAJYHUJWFUHSHYJa@Lk@rBsIVeAH_@FQ??BQBIBIDKBGBGBEBEDCBEDCBCBCDAHCdBQbD]XCNCNALCNCLCJCLCJENGLGHENIJILILKLMNMPQNUPUPWl@_Ah@{@b@o@NW????HMJO@CR[JQ`AyA|C{ET]HOdBkCJQFGFIDEFEFAFAD?@?F?FBJDz@`@p@Zv@\\FBPH??HDHBLFD@JDLF`EhBRJVJjD|AbCdABBLFHD??LDJDLFDBrB~@nD|AtAn@FBXJdAd@bCfA`@RVLD@??@?HDFBJDHBH@HB@?J@J@L@J@J?HAJ?HAHAFAFAFCHCv@YNGLEBAFCLGTKr@]^ORKHE??DCNGr@]XMRKHELCHCFAHAVAFAD?D@BBD@BDBDDFBLDNFLZz@rBbFL\\?@??BD@DFLBDDDB@BBD?B?B?BABC@ABEBEBIDKBK@GBEF[TmAtB{KBI@GBMDMBI@CDIP[jBaDP]FIBGDEDGDCBC@?DCDCFAFAH?JCLAv@ERCJA??L?f@Ed@EH?FAFAFABADADCDCDC@A@ABABEDEDEDIFIDIFMDKJUDMDODQDODMBQDQDSJi@v@{DF_@Lo@??RcAReAH]Jm@BMDOl@_DLk@Nw@BM@I@G@K@I@M@K@QBi@@I@E@G@G@EBGBEBEBADCDCLEJEPG\\MLENGNEFA??HCJCPEBAJCFAHANABAFADADCDCDEDGDI@CDMDOj@eCR{@d@kBLk@Ni@HWBMd@}ALe@DMDG?CHQ@EBGFO@CBEBGDOFWNi@Li@FU??DQ@I?K?A?G?G?CAGAI??AICI?CAE??GMAECICGAIAGAG?I?K?M@Q@O@S@O@QDWBQ@KDWBQDSDQBMDKFIDIFGFIBEFIDGDIBG@GBKBK@O@K@K@O?UBiA?MBeA@Q@{@???C@]?M@KAI?G?GAE?CAEACAEAGCEACCEIISQMMAAUSEECEEECGCEACCKCKCKESg@oDE]EYE_@Ea@CWAIE[Ee@KoAs@oICSAM?QAM?MAS?S?O@Q?I?GAE?IAE?GAEA?AGAECECCCCCCIECCECCEEGEEqAcCUe@????ACIMEMIOCKGIGKGKKQOUOSMOSUIICECCCACAA?A?A?C?C@C@CBABCDADCDAHCJCNSjAKj@GZMd@I^K`@K\\ADADCBC@ABCBA?A?A@A?CAA?A?AACAAAA?CECCW_@Wa@MSKOIKGKOUeBiCEI??GIOUGIGGGIIIIICCY]EECGAACCACCGAAEMCICKCKCOQ_AI]GYEWY}AS_A??AIGUQcAq@kDG[CQCK{@qEGWCMAKMo@k@uCk@_DMq@WkAKm@Q_Ac@}BGUIa@EOEQGOEOO]AACG??[q@CGGOu@eBKSEKEGIGMQ{BmCSUOSMOgAsAMOIMIMEIGKIMMYCC??IOIOGMMSIQg@_A{@eBIOk@gAcC}E[m@y@}A]s@EIIOGKIGEC??GCKAaAGOCIAGCEEGGEIGKGOIMGKGIGEKIECqAaASO??IECEECCAEESOMIcAo@eAo@u@a@YOICAAICOCKCMASCeEa@[COCa@EUC[C??QC??QAIA_@EoAIg@Em@CoAKWCG?YCi@EWCWCMCSEMAQEUESGA?OESISIUKWMo@_@q@a@A?AA??YQ[WUQm@u@_@g@_@k@_@q@_@q@q@yA_@y@[y@k@}A_@gAqAqDQYSMUES@WPYZ[f@OTOLMHM@KCKMGM[w@[y@GIAAEEGAIAI@??GFIHEHMRGNMTOZSZ?@ED??SVUVUROLe@XULoBbAsBz@ULMFQHk@\\SDG?AA????CAECCGCIAOASAOAKASCc@AMCGAACGEIGEICGBmBr@"
+                },
+                "quays": [
+                    {
+                        "id": "NSR:Quay:11500",
+                        "longitude": 10.714754,
+                        "latitude": 59.947742,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6266",
+                            "name": "Rikshospitalet",
+                            "longitude": 10.715126,
+                            "latitude": 59.947704
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11489",
+                        "longitude": 10.7175,
+                        "latitude": 59.945573,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6261",
+                            "name": "Gaustadalléen",
+                            "longitude": 10.717591,
+                            "latitude": 59.945686
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11662",
+                        "longitude": 10.720927,
+                        "latitude": 59.943726,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6346",
+                            "name": "Forskningsparken T",
+                            "longitude": 10.72088,
+                            "latitude": 59.94383
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11651",
+                        "longitude": 10.724388,
+                        "latitude": 59.942181,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6340",
+                            "name": "Universitetet Blindern",
+                            "longitude": 10.724783,
+                            "latitude": 59.942061
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11625",
+                        "longitude": 10.729268,
+                        "latitude": 59.940205,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6327",
+                            "name": "John Colletts plass",
+                            "longitude": 10.729024,
+                            "latitude": 59.940321
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11586",
+                        "longitude": 10.732079,
+                        "latitude": 59.936122,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6307",
+                            "name": "Ullevål sykehus",
+                            "longitude": 10.732007,
+                            "latitude": 59.936235
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11507",
+                        "longitude": 10.734624,
+                        "latitude": 59.932638,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6269",
+                            "name": "Adamstuen",
+                            "longitude": 10.734756,
+                            "latitude": 59.932738
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11499",
+                        "longitude": 10.732908,
+                        "latitude": 59.929454,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6265",
+                            "name": "Stensgata",
+                            "longitude": 10.733004,
+                            "latitude": 59.929509
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11492",
+                        "longitude": 10.730942,
+                        "latitude": 59.92584,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6263",
+                            "name": "Bislett",
+                            "longitude": 10.731073,
+                            "latitude": 59.925967
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11481",
+                        "longitude": 10.731513,
+                        "latitude": 59.923584,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6256",
+                            "name": "Dalsbergstien",
+                            "longitude": 10.731591,
+                            "latitude": 59.923567
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:101335",
+                        "longitude": 10.730011,
+                        "latitude": 59.921511,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:59379",
+                            "name": "Welhavens gate",
+                            "longitude": 10.730019,
+                            "latitude": 59.921482
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7557",
+                        "longitude": 10.734512,
+                        "latitude": 59.91854,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4183",
+                            "name": "Holbergs plass",
+                            "longitude": 10.734538,
+                            "latitude": 59.918791
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7540",
+                        "longitude": 10.737422,
+                        "latitude": 59.916727,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4174",
+                            "name": "Tullinløkka",
+                            "longitude": 10.737199,
+                            "latitude": 59.916816
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7529",
+                        "longitude": 10.741257,
+                        "latitude": 59.91506,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4168",
+                            "name": "Tinghuset",
+                            "longitude": 10.741279,
+                            "latitude": 59.915178
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7497",
+                        "longitude": 10.745734,
+                        "latitude": 59.912805,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4160",
+                            "name": "Stortorvet",
+                            "longitude": 10.745399,
+                            "latitude": 59.912978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7175",
+                        "longitude": 10.750168,
+                        "latitude": 59.912239,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:3986",
+                            "name": "Jernbanetorget",
+                            "longitude": 10.749892,
+                            "latitude": 59.912282
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:102528",
+                        "longitude": 10.75793,
+                        "latitude": 59.914508,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:60156",
+                            "name": "Lilletorget",
+                            "longitude": 10.757513,
+                            "latitude": 59.914291
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104871",
+                        "longitude": 10.758705,
+                        "latitude": 59.917312,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:61249",
+                            "name": "Nybrua",
+                            "longitude": 10.758276,
+                            "latitude": 59.917048
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104055",
+                        "longitude": 10.761283,
+                        "latitude": 59.918454,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62031",
+                            "name": "Heimdalsgata",
+                            "longitude": 10.760851,
+                            "latitude": 59.918382
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104050",
+                        "longitude": 10.768691,
+                        "latitude": 59.920638,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62029",
+                            "name": "Lakkegata skole",
+                            "longitude": 10.768482,
+                            "latitude": 59.920612
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104049",
+                        "longitude": 10.771845,
+                        "latitude": 59.922973,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62028",
+                            "name": "Sofienberg",
+                            "longitude": 10.771738,
+                            "latitude": 59.922978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11043",
+                        "longitude": 10.776909,
+                        "latitude": 59.927005,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6017",
+                            "name": "Carl Berners plass",
+                            "longitude": 10.776642,
+                            "latitude": 59.926744
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11053",
+                        "longitude": 10.778293,
+                        "latitude": 59.930477,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62025",
+                            "name": "Rosenhoff",
+                            "longitude": 10.77817,
+                            "latitude": 59.930227
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11058",
+                        "longitude": 10.779428,
+                        "latitude": 59.934386,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6024",
+                            "name": "Sinsenterrassen",
+                            "longitude": 10.779308,
+                            "latitude": 59.93437
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11094",
+                        "longitude": 10.783247,
+                        "latitude": 59.939259,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6045",
+                            "name": "Sinsenkrysset",
+                            "longitude": 10.783368,
+                            "latitude": 59.939126
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11104",
+                        "longitude": 10.781708,
+                        "latitude": 59.941726,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6050",
+                            "name": "Grefsen stasjon",
+                            "longitude": 10.781397,
+                            "latitude": 59.942022
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:101950",
+                        "longitude": 10.781622,
+                        "latitude": 59.943217,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6050",
+                            "name": "Grefsen stasjon",
+                            "longitude": 10.781397,
+                            "latitude": 59.942022
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "RUT:JourneyPattern:17-270",
+                "name": "17 2 to Grefsen stasjon (RB:NSR:Quay:11105) from Rikshospitalet (RB:NSR:Quay:11500) via Lilletorget (RB:NSR:Quay:102528)",
+                "pointsOnLink": {
+                    "length": 912,
+                    "points": "_p{lJcxk`A@E?GBW@]@U@Q?K@MVuDVuD@UBO@MBMBKBMDKDIDIDGDEFEBAFCBA@AD?FAD@D@FBJFJD^V`Al@JHJFHDLDNHh@T@@RH??DBJDfAd@@@NFFBD@F@F@F?F?HCFCDEFEFGDIDGDKBIBODOBS@Q@Q@W?OD{C@o@@]@Y@W@UBSBMBOBODODQFOHSZs@Xq@BEFQ??Rc@FOn@{APa@HSDKBI@CDODQDUFYH]DWFSDQDODMJYnAiDVo@FS????Pc@HSVk@t@eBn@wAJYHUJWFUHSHYJa@Lk@rBsIVeAH_@FQ??BQBIBIDKBGBGBEBEDCBEDCBCBCDAHCdBQbD]XCNCNALCNCLCJCLCJENGLGHENIJILILKLMNMPQNUPUPWl@_Ah@{@b@o@NW????HMJO@CR[JQ`AyA|C{ET]HOdBkCJQFGFIDEFEFAFAD?@?F?FBJDz@`@p@Zv@\\FBPH??HDHBLFD@JDLF`EhBRJVJjD|AbCdABBLFHD??LDJDLFDBrB~@nD|AtAn@FBXJdAd@bCfA`@RVLD@??@?HDFBJDHBH@HB@?J@J@L@J@J?HAJ?HAHAFAFAFCHCv@YNGLEBAFCLGTKr@]^ORKHE??DCNGr@]XMRKHELCHCFAHAVAFAD?D@BBD@BDBDDFBLDNFLZz@rBbFL\\?@??BD@DFLBDDDB@BBD?B?B?BABC@ABEBEBIDKBK@GBEF[TmAtB{KBI@GBMDMBI@CDIP[jBaDP]FIBGDEDGDCBC@?DCDCFAFAH?JCLAv@ERCJA??L?f@Ed@EH?FAFAFABADADCDCDC@A@ABABEDEDEDIFIDIFMDKJUDMDODQDODMBQDQDSJi@v@{DF_@Lo@??RcAReAH]Jm@BMDOl@_DLk@Nw@BM@I@G@K@I@M@K@QBi@@I@E@G@G@EBGBEBEBADCDCLEJEPG\\MLENGNEFA??HCJCPEBAJCFAHANABAFADADCDCDEDGDI@CDMDOj@eCR{@d@kBLk@Ni@HWBMd@}ALe@DMDG?CHQ@EBGFO@CBEBGDOFWNi@Li@FU??DQ@I?K?A?G?G?CAGAI??AICI?CAE??GMAECICGAIAGAG?I?K?M@Q@O@S@O@QDWBQ@KDWBQDSDQBMDKFIDIFGFIBEFIDGDIBG@GBKBK@O@K@K@O?UBiA?MBeA@Q@{@???C@]?M@KAI?G?GAE?CAEACAEAGCEACCEIISQMMAAUSEECEEECGCEACCKCKCKESg@oDE]EYE_@Ea@CWAIE[Ee@KoAs@oICSAM?QAM?MAS?S?O@Q?I?GAE?IAE?GAEA?AGAECECCCCCCIECCECCEEGEEqAcCUe@????ACIMEMIOCKGIGKGKKQOUOSMOSUIICECCCACAA?A?A?C?C@C@CBABCDADCDAHCJCNSjAKj@GZMd@I^K`@K\\ADADCBC@ABCBA?A?A@A?CAA?A?AACAAAA?CECCW_@Wa@MSKOIKGKOUeBiCEI??GIOUGIGGGIIIIICCY]EECGAACCACCGAAEMCICKCKCOQ_AI]GYEWY}AS_A??AIGUQcAq@kDG[CQCK{@qEGWCMAKMo@k@uCk@_DMq@WkAKm@Q_Ac@}BGUIa@EOEQGOEOO]AACG??[q@CGGOu@eBKSEKEGIGMQ{BmCSUOSMOgAsAMOIMIMEIGKIMMYCC??IOIOGMMSIQg@_A{@eBIOk@gAcC}E[m@y@}A]s@EIIOGKIGEC??GCKAaAGOCIAGCEEGGEIGKGOIMGKGIGEKIECqAaASO??IECEECCAEESOMIcAo@eAo@u@a@YOICAAICOCKCMASCeEa@[COCa@EUC[C??QC??QAIA_@EoAIg@Em@CoAKWCG?YCi@EWCWCMCSEMAQEUESGA?OESISIUKWMo@_@q@a@A?AA??YQ[WUQm@u@_@g@_@k@_@q@_@q@q@yA_@y@[y@k@}A_@gAqAqDQYSMUES@WPYZ[f@OTOLMHM@KCKMGM[w@[y@GIAAEEGAIAI@??GFIHEHMRGNMTOZSZ?@ED??SVUVUROLe@XULoBbAsBz@ULMFQHk@\\e@VWLOFA@y@\\"
+                },
+                "quays": [
+                    {
+                        "id": "NSR:Quay:11500",
+                        "longitude": 10.714754,
+                        "latitude": 59.947742,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6266",
+                            "name": "Rikshospitalet",
+                            "longitude": 10.715126,
+                            "latitude": 59.947704
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11489",
+                        "longitude": 10.7175,
+                        "latitude": 59.945573,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6261",
+                            "name": "Gaustadalléen",
+                            "longitude": 10.717591,
+                            "latitude": 59.945686
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11662",
+                        "longitude": 10.720927,
+                        "latitude": 59.943726,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6346",
+                            "name": "Forskningsparken T",
+                            "longitude": 10.72088,
+                            "latitude": 59.94383
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11651",
+                        "longitude": 10.724388,
+                        "latitude": 59.942181,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6340",
+                            "name": "Universitetet Blindern",
+                            "longitude": 10.724783,
+                            "latitude": 59.942061
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11625",
+                        "longitude": 10.729268,
+                        "latitude": 59.940205,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6327",
+                            "name": "John Colletts plass",
+                            "longitude": 10.729024,
+                            "latitude": 59.940321
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11586",
+                        "longitude": 10.732079,
+                        "latitude": 59.936122,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6307",
+                            "name": "Ullevål sykehus",
+                            "longitude": 10.732007,
+                            "latitude": 59.936235
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11507",
+                        "longitude": 10.734624,
+                        "latitude": 59.932638,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6269",
+                            "name": "Adamstuen",
+                            "longitude": 10.734756,
+                            "latitude": 59.932738
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11499",
+                        "longitude": 10.732908,
+                        "latitude": 59.929454,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6265",
+                            "name": "Stensgata",
+                            "longitude": 10.733004,
+                            "latitude": 59.929509
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11492",
+                        "longitude": 10.730942,
+                        "latitude": 59.92584,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6263",
+                            "name": "Bislett",
+                            "longitude": 10.731073,
+                            "latitude": 59.925967
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11481",
+                        "longitude": 10.731513,
+                        "latitude": 59.923584,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6256",
+                            "name": "Dalsbergstien",
+                            "longitude": 10.731591,
+                            "latitude": 59.923567
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:101335",
+                        "longitude": 10.730011,
+                        "latitude": 59.921511,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:59379",
+                            "name": "Welhavens gate",
+                            "longitude": 10.730019,
+                            "latitude": 59.921482
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7557",
+                        "longitude": 10.734512,
+                        "latitude": 59.91854,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4183",
+                            "name": "Holbergs plass",
+                            "longitude": 10.734538,
+                            "latitude": 59.918791
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7540",
+                        "longitude": 10.737422,
+                        "latitude": 59.916727,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4174",
+                            "name": "Tullinløkka",
+                            "longitude": 10.737199,
+                            "latitude": 59.916816
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7529",
+                        "longitude": 10.741257,
+                        "latitude": 59.91506,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4168",
+                            "name": "Tinghuset",
+                            "longitude": 10.741279,
+                            "latitude": 59.915178
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7497",
+                        "longitude": 10.745734,
+                        "latitude": 59.912805,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4160",
+                            "name": "Stortorvet",
+                            "longitude": 10.745399,
+                            "latitude": 59.912978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7175",
+                        "longitude": 10.750168,
+                        "latitude": 59.912239,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:3986",
+                            "name": "Jernbanetorget",
+                            "longitude": 10.749892,
+                            "latitude": 59.912282
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:102528",
+                        "longitude": 10.75793,
+                        "latitude": 59.914508,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:60156",
+                            "name": "Lilletorget",
+                            "longitude": 10.757513,
+                            "latitude": 59.914291
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104871",
+                        "longitude": 10.758705,
+                        "latitude": 59.917312,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:61249",
+                            "name": "Nybrua",
+                            "longitude": 10.758276,
+                            "latitude": 59.917048
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104055",
+                        "longitude": 10.761283,
+                        "latitude": 59.918454,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62031",
+                            "name": "Heimdalsgata",
+                            "longitude": 10.760851,
+                            "latitude": 59.918382
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104050",
+                        "longitude": 10.768691,
+                        "latitude": 59.920638,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62029",
+                            "name": "Lakkegata skole",
+                            "longitude": 10.768482,
+                            "latitude": 59.920612
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104049",
+                        "longitude": 10.771845,
+                        "latitude": 59.922973,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62028",
+                            "name": "Sofienberg",
+                            "longitude": 10.771738,
+                            "latitude": 59.922978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11043",
+                        "longitude": 10.776909,
+                        "latitude": 59.927005,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6017",
+                            "name": "Carl Berners plass",
+                            "longitude": 10.776642,
+                            "latitude": 59.926744
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11053",
+                        "longitude": 10.778293,
+                        "latitude": 59.930477,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62025",
+                            "name": "Rosenhoff",
+                            "longitude": 10.77817,
+                            "latitude": 59.930227
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11058",
+                        "longitude": 10.779428,
+                        "latitude": 59.934386,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6024",
+                            "name": "Sinsenterrassen",
+                            "longitude": 10.779308,
+                            "latitude": 59.93437
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11094",
+                        "longitude": 10.783247,
+                        "latitude": 59.939259,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6045",
+                            "name": "Sinsenkrysset",
+                            "longitude": 10.783368,
+                            "latitude": 59.939126
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11105",
+                        "longitude": 10.781297,
+                        "latitude": 59.94228,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6050",
+                            "name": "Grefsen stasjon",
+                            "longitude": 10.781397,
+                            "latitude": 59.942022
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "RUT:JourneyPattern:17-288",
+                "name": "17 2 to Stortorvet (RB:NSR:Quay:7512) from Rikshospitalet (RB:NSR:Quay:11500) express",
+                "pointsOnLink": {
+                    "length": 475,
+                    "points": "_p{lJcxk`A@E?GBW@]@U@Q?K@MVuDVuD@UBO@MBMBKBMDKDIDIDGDEFEBAFCBA@AD?FAD@D@FBJFJD^V`Al@JHJFHDLDNHh@T@@RH??DBJDfAd@@@NFFBD@F@F@F?F?HCFCDEFEFGDIDGDKBIBODOBS@Q@Q@W?OD{C@o@@]@Y@W@UBSBMBOBODODQFOHSZs@Xq@BEFQ??Rc@FOn@{APa@HSDKBI@CDODQDUFYH]DWFSDQDODMJYnAiDVo@FS????Pc@HSVk@t@eBn@wAJYHUJWFUHSHYJa@Lk@rBsIVeAH_@FQ??BQBIBIDKBGBGBEBEDCBEDCBCBCDAHCdBQbD]XCNCNALCNCLCJCLCJENGLGHENIJILILKLMNMPQNUPUPWl@_Ah@{@b@o@NW????HMJO@CR[JQ`AyA|C{ET]HOdBkCJQFGFIDEFEFAFAD?@?F?FBJDz@`@p@Zv@\\FBPH??HDHBLFD@JDLF`EhBRJVJjD|AbCdABBLFHD??LDJDLFDBrB~@nD|AtAn@FBXJdAd@bCfA`@RVLD@??@?HDFBJDHBH@HB@?J@J@L@J@J?HAJ?HAHAFAFAFCHCv@YNGLEBAFCLGTKr@]^ORKHE??DCNGr@]XMRKHELCHCFAHAVAFAD?D@BBD@BDBDDFBLDNFLZz@rBbFL\\?@??BD@DFLBDDDB@BBD?B?B?BABC@ABEBEBIDKBK@GBEF[TmAtB{KBI@GBMDMBI@CDIP[jBaDP]FIBGDEDGDCBC@?DCDCFAFAH?JCLAv@ERCJA??L?f@Ed@EH?FAFAFABADADCDCDC@A@ABABEDEDEDIFIDIFMDKJUDMDODQDODMBQDQDSJi@v@{DF_@Lo@??RcAReAH]Jm@BMDOl@_DLk@Nw@BM@I@G@K@I@M@K@QBi@@I@E@G@G@EBGBEBEBADCDCLEJEPG\\MLENGNEFA??HCJCPEBAJCFAHANABAFADADCDCDEDGDI@CDMDOj@eCR{@d@kBLk@Ni@Le@d@}ALe@DMDG?CBEBCBC@ABAB?@?B?B@FD`@b@DBDBFBD?DCBCDCBEBG@G@I\\gC"
+                },
+                "quays": [
+                    {
+                        "id": "NSR:Quay:11500",
+                        "longitude": 10.714754,
+                        "latitude": 59.947742,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6266",
+                            "name": "Rikshospitalet",
+                            "longitude": 10.715126,
+                            "latitude": 59.947704
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11489",
+                        "longitude": 10.7175,
+                        "latitude": 59.945573,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6261",
+                            "name": "Gaustadalléen",
+                            "longitude": 10.717591,
+                            "latitude": 59.945686
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11662",
+                        "longitude": 10.720927,
+                        "latitude": 59.943726,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6346",
+                            "name": "Forskningsparken T",
+                            "longitude": 10.72088,
+                            "latitude": 59.94383
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11651",
+                        "longitude": 10.724388,
+                        "latitude": 59.942181,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6340",
+                            "name": "Universitetet Blindern",
+                            "longitude": 10.724783,
+                            "latitude": 59.942061
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11625",
+                        "longitude": 10.729268,
+                        "latitude": 59.940205,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6327",
+                            "name": "John Colletts plass",
+                            "longitude": 10.729024,
+                            "latitude": 59.940321
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11586",
+                        "longitude": 10.732079,
+                        "latitude": 59.936122,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6307",
+                            "name": "Ullevål sykehus",
+                            "longitude": 10.732007,
+                            "latitude": 59.936235
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11507",
+                        "longitude": 10.734624,
+                        "latitude": 59.932638,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6269",
+                            "name": "Adamstuen",
+                            "longitude": 10.734756,
+                            "latitude": 59.932738
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11499",
+                        "longitude": 10.732908,
+                        "latitude": 59.929454,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6265",
+                            "name": "Stensgata",
+                            "longitude": 10.733004,
+                            "latitude": 59.929509
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11492",
+                        "longitude": 10.730942,
+                        "latitude": 59.92584,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6263",
+                            "name": "Bislett",
+                            "longitude": 10.731073,
+                            "latitude": 59.925967
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11481",
+                        "longitude": 10.731513,
+                        "latitude": 59.923584,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6256",
+                            "name": "Dalsbergstien",
+                            "longitude": 10.731591,
+                            "latitude": 59.923567
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:101335",
+                        "longitude": 10.730011,
+                        "latitude": 59.921511,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:59379",
+                            "name": "Welhavens gate",
+                            "longitude": 10.730019,
+                            "latitude": 59.921482
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7557",
+                        "longitude": 10.734512,
+                        "latitude": 59.91854,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4183",
+                            "name": "Holbergs plass",
+                            "longitude": 10.734538,
+                            "latitude": 59.918791
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7540",
+                        "longitude": 10.737422,
+                        "latitude": 59.916727,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4174",
+                            "name": "Tullinløkka",
+                            "longitude": 10.737199,
+                            "latitude": 59.916816
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7529",
+                        "longitude": 10.741257,
+                        "latitude": 59.91506,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4168",
+                            "name": "Tinghuset",
+                            "longitude": 10.741279,
+                            "latitude": 59.915178
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7512",
+                        "longitude": 10.745391,
+                        "latitude": 59.912444,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4160",
+                            "name": "Stortorvet",
+                            "longitude": 10.745399,
+                            "latitude": 59.912978
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "RUT:JourneyPattern:17-283",
+                "name": "17 2 to Disen (RB:NSR:Quay:11171)",
+                "pointsOnLink": {
+                    "length": 261,
+                    "points": "syulJmyt`ACKQcAq@kDG[CQCK{@qEGWCMAKMo@k@uCk@_DMq@WkAKm@Q_Ac@}BGUIa@EOEQGOEOO]AACG??[q@CGGOu@eBKSEKEGIGMQ{BmCSUOSMOgAsAMOIMIMEIGKIMMYCC??IOIOGMMSIQg@_A{@eBIOk@gAcC}E[m@y@}A]s@EIIOGKIGEC??GCKAaAGOCIAGCEEGGEIGKGOIMGKGIGEKIECqAaASO??IECEECCAEESOMIcAo@eAo@u@a@YOICAAICOCKCMASCeEa@[COCa@EUC[C??QC??QAIA_@EoAIg@Em@CoAKWCG?YCi@EWCWCMCSEMAQEUESGA?OESISIUKWMo@_@q@a@A?AA??YQ[WUQm@u@_@g@_@k@_@q@_@q@q@yA_@y@[y@k@}A_@gAqAqDQYSMUES@WPYZ[f@OTOLMHM@KCKMGM[w@[y@GIAAEEGAIAI@??GFIHEHMRGNMTOZSZ?@ED??SVUVUROLe@XULoBbAsBz@ULMFQHk@\\e@VWLOFA@y@\\??C@UJGDYLMHgAh@IDWJQHUH]JcCv@kBn@aA^????KDI@E@CAA?E?GCCCEGCGEKAEAIAGAQGiA[mF_@iGi@uJU}DAQ?M?K@Q?M@OBK@I@IBIDO"
+                },
+                "quays": [
+                    {
+                        "id": "NSR:Quay:104055",
+                        "longitude": 10.761283,
+                        "latitude": 59.918454,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62031",
+                            "name": "Heimdalsgata",
+                            "longitude": 10.760851,
+                            "latitude": 59.918382
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104050",
+                        "longitude": 10.768691,
+                        "latitude": 59.920638,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62029",
+                            "name": "Lakkegata skole",
+                            "longitude": 10.768482,
+                            "latitude": 59.920612
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104049",
+                        "longitude": 10.771845,
+                        "latitude": 59.922973,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62028",
+                            "name": "Sofienberg",
+                            "longitude": 10.771738,
+                            "latitude": 59.922978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11043",
+                        "longitude": 10.776909,
+                        "latitude": 59.927005,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6017",
+                            "name": "Carl Berners plass",
+                            "longitude": 10.776642,
+                            "latitude": 59.926744
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11053",
+                        "longitude": 10.778293,
+                        "latitude": 59.930477,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62025",
+                            "name": "Rosenhoff",
+                            "longitude": 10.77817,
+                            "latitude": 59.930227
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11058",
+                        "longitude": 10.779428,
+                        "latitude": 59.934386,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6024",
+                            "name": "Sinsenterrassen",
+                            "longitude": 10.779308,
+                            "latitude": 59.93437
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11094",
+                        "longitude": 10.783247,
+                        "latitude": 59.939259,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6045",
+                            "name": "Sinsenkrysset",
+                            "longitude": 10.783368,
+                            "latitude": 59.939126
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11105",
+                        "longitude": 10.781297,
+                        "latitude": 59.94228,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6050",
+                            "name": "Grefsen stasjon",
+                            "longitude": 10.781397,
+                            "latitude": 59.942022
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11133",
+                        "longitude": 10.779981,
+                        "latitude": 59.945066,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6067",
+                            "name": "Storo",
+                            "longitude": 10.779921,
+                            "latitude": 59.944953
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11171",
+                        "longitude": 10.786966,
+                        "latitude": 59.945879,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6083",
+                            "name": "Disen",
+                            "longitude": 10.787284,
+                            "latitude": 59.946228
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "RUT:JourneyPattern:17-294",
+                "name": "17 2 to Stortorvet (RB:NSR:Quay:7512) from Rikshospitalet (RB:NSR:Quay:11500) express",
+                "pointsOnLink": {
+                    "length": 475,
+                    "points": "_p{lJcxk`A@E?GBW@]@U@Q?K@MVuDVuD@UBO@MBMBKBMDKDIDIDGDEFEBAFCBA@AD?FAD@D@FBJFJD^V`Al@JHJFHDLDNHh@T@@RH??DBJDfAd@@@NFFBD@F@F@F?F?HCFCDEFEFGDIDGDKBIBODOBS@Q@Q@W?OD{C@o@@]@Y@W@UBSBMBOBODODQFOHSZs@Xq@BEFQ??Rc@FOn@{APa@HSDKBI@CDODQDUFYH]DWFSDQDODMJYnAiDVo@FS????Pc@HSVk@t@eBn@wAJYHUJWFUHSHYJa@Lk@rBsIVeAH_@FQ??BQBIBIDKBGBGBEBEDCBEDCBCBCDAHCdBQbD]XCNCNALCNCLCJCLCJENGLGHENIJILILKLMNMPQNUPUPWl@_Ah@{@b@o@NW????HMJO@CR[JQ`AyA|C{ET]HOdBkCJQFGFIDEFEFAFAD?@?F?FBJDz@`@p@Zv@\\FBPH??HDHBLFD@JDLF`EhBRJVJjD|AbCdABBLFHD??LDJDLFDBrB~@nD|AtAn@FBXJdAd@bCfA`@RVLD@??@?HDFBJDHBH@HB@?J@J@L@J@J?HAJ?HAHAFAFAFCHCv@YNGLEBAFCLGTKr@]^ORKHE??DCNGr@]XMRKHELCHCFAHAVAFAD?D@BBD@BDBDDFBLDNFLZz@rBbFL\\?@??BD@DFLBDDDB@BBD?B?B?BABC@ABEBEBIDKBK@GBEF[TmAtB{KBI@GBMDMBI@CDIP[jBaDP]FIBGDEDGDCBC@?DCDCFAFAH?JCLAv@ERCJA??L?f@Ed@EH?FAFAFABADADCDCDC@A@ABABEDEDEDIFIDIFMDKJUDMDODQDODMBQDQDSJi@v@{DF_@Lo@??RcAReAH]Jm@BMDOl@_DLk@Nw@BM@I@G@K@I@M@K@QBi@@I@E@G@G@EBGBEBEBADCDCLEJEPG\\MLENGNEFA??HCJCPEBAJCFAHANABAFADADCDCDEDGDI@CDMDOj@eCR{@d@kBLk@Ni@Le@d@}ALe@DMDG?CBEBCBC@ABAB?@?B?B@FD`@b@DBDBFBD?DCBCDCBEBG@G@I\\gC"
+                },
+                "quays": [
+                    {
+                        "id": "NSR:Quay:11500",
+                        "longitude": 10.714754,
+                        "latitude": 59.947742,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6266",
+                            "name": "Rikshospitalet",
+                            "longitude": 10.715126,
+                            "latitude": 59.947704
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11489",
+                        "longitude": 10.7175,
+                        "latitude": 59.945573,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6261",
+                            "name": "Gaustadalléen",
+                            "longitude": 10.717591,
+                            "latitude": 59.945686
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11662",
+                        "longitude": 10.720927,
+                        "latitude": 59.943726,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6346",
+                            "name": "Forskningsparken T",
+                            "longitude": 10.72088,
+                            "latitude": 59.94383
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11651",
+                        "longitude": 10.724388,
+                        "latitude": 59.942181,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6340",
+                            "name": "Universitetet Blindern",
+                            "longitude": 10.724783,
+                            "latitude": 59.942061
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11625",
+                        "longitude": 10.729268,
+                        "latitude": 59.940205,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6327",
+                            "name": "John Colletts plass",
+                            "longitude": 10.729024,
+                            "latitude": 59.940321
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11586",
+                        "longitude": 10.732079,
+                        "latitude": 59.936122,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6307",
+                            "name": "Ullevål sykehus",
+                            "longitude": 10.732007,
+                            "latitude": 59.936235
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11507",
+                        "longitude": 10.734624,
+                        "latitude": 59.932638,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6269",
+                            "name": "Adamstuen",
+                            "longitude": 10.734756,
+                            "latitude": 59.932738
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11499",
+                        "longitude": 10.732908,
+                        "latitude": 59.929454,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6265",
+                            "name": "Stensgata",
+                            "longitude": 10.733004,
+                            "latitude": 59.929509
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11492",
+                        "longitude": 10.730942,
+                        "latitude": 59.92584,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6263",
+                            "name": "Bislett",
+                            "longitude": 10.731073,
+                            "latitude": 59.925967
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11481",
+                        "longitude": 10.731513,
+                        "latitude": 59.923584,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6256",
+                            "name": "Dalsbergstien",
+                            "longitude": 10.731591,
+                            "latitude": 59.923567
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:101335",
+                        "longitude": 10.730011,
+                        "latitude": 59.921511,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:59379",
+                            "name": "Welhavens gate",
+                            "longitude": 10.730019,
+                            "latitude": 59.921482
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7557",
+                        "longitude": 10.734512,
+                        "latitude": 59.91854,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4183",
+                            "name": "Holbergs plass",
+                            "longitude": 10.734538,
+                            "latitude": 59.918791
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7540",
+                        "longitude": 10.737422,
+                        "latitude": 59.916727,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4174",
+                            "name": "Tullinløkka",
+                            "longitude": 10.737199,
+                            "latitude": 59.916816
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7529",
+                        "longitude": 10.741257,
+                        "latitude": 59.91506,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4168",
+                            "name": "Tinghuset",
+                            "longitude": 10.741279,
+                            "latitude": 59.915178
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7512",
+                        "longitude": 10.745391,
+                        "latitude": 59.912444,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4160",
+                            "name": "Stortorvet",
+                            "longitude": 10.745399,
+                            "latitude": 59.912978
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "RUT:JourneyPattern:17-295",
+                "name": "17 2 to Grefsen stasjon (RB:NSR:Quay:11105) from Rikshospitalet (RB:NSR:Quay:11500) via Storgata (RB:NSR:Quay:105273)",
+                "pointsOnLink": {
+                    "length": 828,
+                    "points": "_p{lJcxk`A@E?GBW@]@U@Q?K@MVuDVuD@UBO@MBMBKBMDKDIDIDGDEFEBAFCBA@AD?FAD@D@FBJFJD^V`Al@JHJFHDLDNHh@T@@RH??DBJDfAd@@@NFFBD@F@F@F?F?HCFCDEFEFGDIDGDKBIBODOBS@Q@Q@W?OD{C@o@@]@Y@W@UBSBMBOBODODQFOHSZs@Xq@BEFQ??Rc@FOn@{APa@HSDKBI@CDODQDUFYH]DWFSDQDODMJYnAiDVo@FS????Pc@HSVk@t@eBn@wAJYHUJWFUHSHYJa@Lk@rBsIVeAH_@FQ??BQBIBIDKBGBGBEBEDCBEDCBCBCDAHCdBQbD]XCNCNALCNCLCJCLCJENGLGHENIJILILKLMNMPQNUPUPWl@_Ah@{@b@o@NW????HMJO@CR[JQ`AyA|C{ET]HOdBkCJQFGFIDEFEFAFAD?@?F?FBJDz@`@p@Zv@\\FBPH??HDHBLFD@JDLF`EhBRJVJjD|AbCdABBLFHD??LDJDLFDBrB~@nD|AtAn@FBXJdAd@bCfA`@RVLD@??@?HDFBJDHBH@HB@?J@J@L@J@J?HAJ?HAHAFAFAFCHCv@YNGLEBAFCLGTKr@]^ORKHE??DCNGr@]XMRKHELCHCFAHAVAFAD?D@BBD@BDBDDFBLDNFLZz@rBbFL\\?@??BD@DFLBDDDB@BBD?B?B?BABC@ABEBEBIDKBK@GBEF[TmAtB{KBI@GBMDMBI@CDIP[jBaDP]FIBGDEDGDCBC@?DCDCFAFAH?JCLAv@ERCJA??L?f@Ed@EH?FAFAFABADADCDCDC@A@ABABEDEDEDIFIDIFMDKJUDMDODQDODMBQDQDSJi@v@{DF_@Lo@??RcAReAH]Jm@BMDOl@_DLk@Nw@BM@I@G@K@I@M@K@QBi@@I@E@G@G@EBGBEBEBADCDCLEJEPG\\MLENGNEFA??HCJCPEBAJCFAHANABAFADADCDCDEDGDI@CDMDOj@eCR{@d@kBLk@Ni@HWBMd@}ALe@DMDG?CHQ@EBGFO@CBEBGDOFWNi@Li@FU??DQ@I?K?A?G?G?CAGAI??AICI?CAE??GMAECICGAIAGAG?I?K?M@Q@O@S@O@QDWBQ@KDWBQDSDQBMDKFIDIFGFIBEFIDGDIBG@GBKBK@O@K@K@O?UBiA?MBeA@Q@{@???C@]?M@KAI?G?GAE?CAEACAEAGCEACCEIISQMMAAQEKAC?C@E@EBA@uBdCOHICGG}AoH??ACAC[wA{AiG_CmJ}@wCcAkBAC]o@A?AACAAAA?CECCW_@Wa@MSKOIKGKOUeBiCEI??GIOUGIGGGIIIIICCY]EECGAACCACCGAAEMCICKCKCOQ_AI]GYEWY}AS_A??AIGUQcAq@kDG[CQCK{@qEGWCMAKMo@k@uCk@_DMq@WkAKm@Q_Ac@}BGUIa@EOEQGOEOO]AACG??[q@CGGOu@eBKSEKEGIGMQ{BmCSUOSMOgAsAMOIMIMEIGKIMMYCC??IOIOGMMSIQg@_A{@eBIOk@gAcC}E[m@y@}A]s@EIIOGKIGEC??GCKAaAGOCIAGCEEGGEIGKGOIMGKGIGEKIECqAaASO??IECEECCAEESOMIcAo@eAo@u@a@YOICAAICOCKCMASCeEa@[COCa@EUC[C??QC??QAIA_@EoAIg@Em@CoAKWCG?YCi@EWCWCMCSEMAQEUESGA?OESISIUKWMo@_@q@a@A?AA??YQ[WUQm@u@_@g@_@k@_@q@_@q@q@yA_@y@[y@k@}A_@gAqAqDQYSMUES@WPYZ[f@OTOLMHM@KCKMGM[w@[y@GIAAEEGAIAI@??GFIHEHMRGNMTOZSZ?@ED??SVUVUROLe@XULoBbAsBz@ULMFQHk@\\e@VWLOFA@y@\\"
+                },
+                "quays": [
+                    {
+                        "id": "NSR:Quay:11500",
+                        "longitude": 10.714754,
+                        "latitude": 59.947742,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6266",
+                            "name": "Rikshospitalet",
+                            "longitude": 10.715126,
+                            "latitude": 59.947704
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11489",
+                        "longitude": 10.7175,
+                        "latitude": 59.945573,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6261",
+                            "name": "Gaustadalléen",
+                            "longitude": 10.717591,
+                            "latitude": 59.945686
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11662",
+                        "longitude": 10.720927,
+                        "latitude": 59.943726,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6346",
+                            "name": "Forskningsparken T",
+                            "longitude": 10.72088,
+                            "latitude": 59.94383
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11651",
+                        "longitude": 10.724388,
+                        "latitude": 59.942181,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6340",
+                            "name": "Universitetet Blindern",
+                            "longitude": 10.724783,
+                            "latitude": 59.942061
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11625",
+                        "longitude": 10.729268,
+                        "latitude": 59.940205,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6327",
+                            "name": "John Colletts plass",
+                            "longitude": 10.729024,
+                            "latitude": 59.940321
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11586",
+                        "longitude": 10.732079,
+                        "latitude": 59.936122,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6307",
+                            "name": "Ullevål sykehus",
+                            "longitude": 10.732007,
+                            "latitude": 59.936235
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11507",
+                        "longitude": 10.734624,
+                        "latitude": 59.932638,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6269",
+                            "name": "Adamstuen",
+                            "longitude": 10.734756,
+                            "latitude": 59.932738
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11499",
+                        "longitude": 10.732908,
+                        "latitude": 59.929454,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6265",
+                            "name": "Stensgata",
+                            "longitude": 10.733004,
+                            "latitude": 59.929509
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11492",
+                        "longitude": 10.730942,
+                        "latitude": 59.92584,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6263",
+                            "name": "Bislett",
+                            "longitude": 10.731073,
+                            "latitude": 59.925967
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11481",
+                        "longitude": 10.731513,
+                        "latitude": 59.923584,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6256",
+                            "name": "Dalsbergstien",
+                            "longitude": 10.731591,
+                            "latitude": 59.923567
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:101335",
+                        "longitude": 10.730011,
+                        "latitude": 59.921511,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:59379",
+                            "name": "Welhavens gate",
+                            "longitude": 10.730019,
+                            "latitude": 59.921482
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7557",
+                        "longitude": 10.734512,
+                        "latitude": 59.91854,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4183",
+                            "name": "Holbergs plass",
+                            "longitude": 10.734538,
+                            "latitude": 59.918791
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7540",
+                        "longitude": 10.737422,
+                        "latitude": 59.916727,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4174",
+                            "name": "Tullinløkka",
+                            "longitude": 10.737199,
+                            "latitude": 59.916816
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7529",
+                        "longitude": 10.741257,
+                        "latitude": 59.91506,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4168",
+                            "name": "Tinghuset",
+                            "longitude": 10.741279,
+                            "latitude": 59.915178
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7497",
+                        "longitude": 10.745734,
+                        "latitude": 59.912805,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4160",
+                            "name": "Stortorvet",
+                            "longitude": 10.745399,
+                            "latitude": 59.912978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7175",
+                        "longitude": 10.750168,
+                        "latitude": 59.912239,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:3986",
+                            "name": "Jernbanetorget",
+                            "longitude": 10.749892,
+                            "latitude": 59.912282
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:105273",
+                        "longitude": 10.751941,
+                        "latitude": 59.914054,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:61422",
+                            "name": "Storgata",
+                            "longitude": 10.751482,
+                            "latitude": 59.913957
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104871",
+                        "longitude": 10.758705,
+                        "latitude": 59.917312,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:61249",
+                            "name": "Nybrua",
+                            "longitude": 10.758276,
+                            "latitude": 59.917048
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104055",
+                        "longitude": 10.761283,
+                        "latitude": 59.918454,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62031",
+                            "name": "Heimdalsgata",
+                            "longitude": 10.760851,
+                            "latitude": 59.918382
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104050",
+                        "longitude": 10.768691,
+                        "latitude": 59.920638,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62029",
+                            "name": "Lakkegata skole",
+                            "longitude": 10.768482,
+                            "latitude": 59.920612
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104049",
+                        "longitude": 10.771845,
+                        "latitude": 59.922973,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62028",
+                            "name": "Sofienberg",
+                            "longitude": 10.771738,
+                            "latitude": 59.922978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11043",
+                        "longitude": 10.776909,
+                        "latitude": 59.927005,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6017",
+                            "name": "Carl Berners plass",
+                            "longitude": 10.776642,
+                            "latitude": 59.926744
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11053",
+                        "longitude": 10.778293,
+                        "latitude": 59.930477,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62025",
+                            "name": "Rosenhoff",
+                            "longitude": 10.77817,
+                            "latitude": 59.930227
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11058",
+                        "longitude": 10.779428,
+                        "latitude": 59.934386,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6024",
+                            "name": "Sinsenterrassen",
+                            "longitude": 10.779308,
+                            "latitude": 59.93437
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11094",
+                        "longitude": 10.783247,
+                        "latitude": 59.939259,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6045",
+                            "name": "Sinsenkrysset",
+                            "longitude": 10.783368,
+                            "latitude": 59.939126
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11105",
+                        "longitude": 10.781297,
+                        "latitude": 59.94228,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6050",
+                            "name": "Grefsen stasjon",
+                            "longitude": 10.781397,
+                            "latitude": 59.942022
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "RUT:JourneyPattern:17-296",
+                "name": "17 2 to Grefsen stasjon (RB:NSR:Quay:101950) from Rikshospitalet (RB:NSR:Quay:11500) via Storgata (RB:NSR:Quay:105273)",
+                "pointsOnLink": {
+                    "length": 847,
+                    "points": "_p{lJcxk`A@E?GBW@]@U@Q?K@MVuDVuD@UBO@MBMBKBMDKDIDIDGDEFEBAFCBA@AD?FAD@D@FBJFJD^V`Al@JHJFHDLDNHh@T@@RH??DBJDfAd@@@NFFBD@F@F@F?F?HCFCDEFEFGDIDGDKBIBODOBS@Q@Q@W?OD{C@o@@]@Y@W@UBSBMBOBODODQFOHSZs@Xq@BEFQ??Rc@FOn@{APa@HSDKBI@CDODQDUFYH]DWFSDQDODMJYnAiDVo@FS????Pc@HSVk@t@eBn@wAJYHUJWFUHSHYJa@Lk@rBsIVeAH_@FQ??BQBIBIDKBGBGBEBEDCBEDCBCBCDAHCdBQbD]XCNCNALCNCLCJCLCJENGLGHENIJILILKLMNMPQNUPUPWl@_Ah@{@b@o@NW????HMJO@CR[JQ`AyA|C{ET]HOdBkCJQFGFIDEFEFAFAD?@?F?FBJDz@`@p@Zv@\\FBPH??HDHBLFD@JDLF`EhBRJVJjD|AbCdABBLFHD??LDJDLFDBrB~@nD|AtAn@FBXJdAd@bCfA`@RVLD@??@?HDFBJDHBH@HB@?J@J@L@J@J?HAJ?HAHAFAFAFCHCv@YNGLEBAFCLGTKr@]^ORKHE??DCNGr@]XMRKHELCHCFAHAVAFAD?D@BBD@BDBDDFBLDNFLZz@rBbFL\\?@??BD@DFLBDDDB@BBD?B?B?BABC@ABEBEBIDKBK@GBEF[TmAtB{KBI@GBMDMBI@CDIP[jBaDP]FIBGDEDGDCBC@?DCDCFAFAH?JCLAv@ERCJA??L?f@Ed@EH?FAFAFABADADCDCDC@A@ABABEDEDEDIFIDIFMDKJUDMDODQDODMBQDQDSJi@v@{DF_@Lo@??RcAReAH]Jm@BMDOl@_DLk@Nw@BM@I@G@K@I@M@K@QBi@@I@E@G@G@EBGBEBEBADCDCLEJEPG\\MLENGNEFA??HCJCPEBAJCFAHANABAFADADCDCDEDGDI@CDMDOj@eCR{@d@kBLk@Ni@HWBMd@}ALe@DMDG?CHQ@EBGFO@CBEBGDOFWNi@Li@FU??DQ@I?K?A?G?G?CAGAI??AICI?CAE??GMAECICGAIAGAG?I?K?M@Q@O@S@O@QDWBQ@KDWBQDSDQBMDKFIDIFGFIBEFIDGDIBG@GBKBK@O@K@K@O?UBiA?MBeA@Q@{@???C@]?M@KAI?G?GAE?CAEACAEAGCEACCEIISQMMAAQEKAC?C@E@EBA@uBdCOHICGG}AoH??ACAC[wA{AiG_CmJ}@wCcAkBAC]o@A?AACAAAA?CECCW_@Wa@MSKOIKGKOUeBiCEI??GIOUGIGGGIIIIICCY]EECGAACCACCGAAEMCICKCKCOQ_AI]GYEWY}AS_A??AIGUQcAq@kDG[CQCK{@qEGWCMAKMo@k@uCk@_DMq@WkAKm@Q_Ac@}BGUIa@EOEQGOEOO]AACG??[q@CGGOu@eBKSEKEGIGMQ{BmCSUOSMOgAsAMOIMIMEIGKIMMYCC??IOIOGMMSIQg@_A{@eBIOk@gAcC}E[m@y@}A]s@EIIOGKIGEC??GCKAaAGOCIAGCEEGGEIGKGOIMGKGIGEKIECqAaASO??IECEECCAEESOMIcAo@eAo@u@a@YOICAAICOCKCMASCeEa@[COCa@EUC[C??QC??QAIA_@EoAIg@Em@CoAKWCG?YCi@EWCWCMCSEMAQEUESGA?OESISIUKWMo@_@q@a@A?AA??YQ[WUQm@u@_@g@_@k@_@q@_@q@q@yA_@y@[y@k@}A_@gAqAqDQYSMUES@WPYZ[f@OTOLMHM@KCKMGM[w@[y@GIAAEEGAIAI@??GFIHEHMRGNMTOZSZ?@ED??SVUVUROLe@XULoBbAsBz@ULMFQHk@\\SDG?AA????CAECCGCIAOASAOAKASCc@AMCGAACGEIGEICGBmBr@"
+                },
+                "quays": [
+                    {
+                        "id": "NSR:Quay:11500",
+                        "longitude": 10.714754,
+                        "latitude": 59.947742,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6266",
+                            "name": "Rikshospitalet",
+                            "longitude": 10.715126,
+                            "latitude": 59.947704
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11489",
+                        "longitude": 10.7175,
+                        "latitude": 59.945573,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6261",
+                            "name": "Gaustadalléen",
+                            "longitude": 10.717591,
+                            "latitude": 59.945686
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11662",
+                        "longitude": 10.720927,
+                        "latitude": 59.943726,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6346",
+                            "name": "Forskningsparken T",
+                            "longitude": 10.72088,
+                            "latitude": 59.94383
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11651",
+                        "longitude": 10.724388,
+                        "latitude": 59.942181,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6340",
+                            "name": "Universitetet Blindern",
+                            "longitude": 10.724783,
+                            "latitude": 59.942061
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11625",
+                        "longitude": 10.729268,
+                        "latitude": 59.940205,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6327",
+                            "name": "John Colletts plass",
+                            "longitude": 10.729024,
+                            "latitude": 59.940321
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11586",
+                        "longitude": 10.732079,
+                        "latitude": 59.936122,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6307",
+                            "name": "Ullevål sykehus",
+                            "longitude": 10.732007,
+                            "latitude": 59.936235
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11507",
+                        "longitude": 10.734624,
+                        "latitude": 59.932638,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6269",
+                            "name": "Adamstuen",
+                            "longitude": 10.734756,
+                            "latitude": 59.932738
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11499",
+                        "longitude": 10.732908,
+                        "latitude": 59.929454,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6265",
+                            "name": "Stensgata",
+                            "longitude": 10.733004,
+                            "latitude": 59.929509
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11492",
+                        "longitude": 10.730942,
+                        "latitude": 59.92584,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6263",
+                            "name": "Bislett",
+                            "longitude": 10.731073,
+                            "latitude": 59.925967
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11481",
+                        "longitude": 10.731513,
+                        "latitude": 59.923584,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6256",
+                            "name": "Dalsbergstien",
+                            "longitude": 10.731591,
+                            "latitude": 59.923567
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:101335",
+                        "longitude": 10.730011,
+                        "latitude": 59.921511,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:59379",
+                            "name": "Welhavens gate",
+                            "longitude": 10.730019,
+                            "latitude": 59.921482
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7557",
+                        "longitude": 10.734512,
+                        "latitude": 59.91854,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4183",
+                            "name": "Holbergs plass",
+                            "longitude": 10.734538,
+                            "latitude": 59.918791
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7540",
+                        "longitude": 10.737422,
+                        "latitude": 59.916727,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4174",
+                            "name": "Tullinløkka",
+                            "longitude": 10.737199,
+                            "latitude": 59.916816
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7529",
+                        "longitude": 10.741257,
+                        "latitude": 59.91506,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4168",
+                            "name": "Tinghuset",
+                            "longitude": 10.741279,
+                            "latitude": 59.915178
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7497",
+                        "longitude": 10.745734,
+                        "latitude": 59.912805,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:4160",
+                            "name": "Stortorvet",
+                            "longitude": 10.745399,
+                            "latitude": 59.912978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:7175",
+                        "longitude": 10.750168,
+                        "latitude": 59.912239,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:3986",
+                            "name": "Jernbanetorget",
+                            "longitude": 10.749892,
+                            "latitude": 59.912282
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:105273",
+                        "longitude": 10.751941,
+                        "latitude": 59.914054,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:61422",
+                            "name": "Storgata",
+                            "longitude": 10.751482,
+                            "latitude": 59.913957
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104871",
+                        "longitude": 10.758705,
+                        "latitude": 59.917312,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:61249",
+                            "name": "Nybrua",
+                            "longitude": 10.758276,
+                            "latitude": 59.917048
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104055",
+                        "longitude": 10.761283,
+                        "latitude": 59.918454,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62031",
+                            "name": "Heimdalsgata",
+                            "longitude": 10.760851,
+                            "latitude": 59.918382
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104050",
+                        "longitude": 10.768691,
+                        "latitude": 59.920638,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62029",
+                            "name": "Lakkegata skole",
+                            "longitude": 10.768482,
+                            "latitude": 59.920612
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104049",
+                        "longitude": 10.771845,
+                        "latitude": 59.922973,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62028",
+                            "name": "Sofienberg",
+                            "longitude": 10.771738,
+                            "latitude": 59.922978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11043",
+                        "longitude": 10.776909,
+                        "latitude": 59.927005,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6017",
+                            "name": "Carl Berners plass",
+                            "longitude": 10.776642,
+                            "latitude": 59.926744
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11053",
+                        "longitude": 10.778293,
+                        "latitude": 59.930477,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62025",
+                            "name": "Rosenhoff",
+                            "longitude": 10.77817,
+                            "latitude": 59.930227
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11058",
+                        "longitude": 10.779428,
+                        "latitude": 59.934386,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6024",
+                            "name": "Sinsenterrassen",
+                            "longitude": 10.779308,
+                            "latitude": 59.93437
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11094",
+                        "longitude": 10.783247,
+                        "latitude": 59.939259,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6045",
+                            "name": "Sinsenkrysset",
+                            "longitude": 10.783368,
+                            "latitude": 59.939126
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11104",
+                        "longitude": 10.781708,
+                        "latitude": 59.941726,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6050",
+                            "name": "Grefsen stasjon",
+                            "longitude": 10.781397,
+                            "latitude": 59.942022
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:101950",
+                        "longitude": 10.781622,
+                        "latitude": 59.943217,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6050",
+                            "name": "Grefsen stasjon",
+                            "longitude": 10.781397,
+                            "latitude": 59.942022
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "RUT:JourneyPattern:17-284",
+                "name": "17 2 to Grefsen stasjon (RB:NSR:Quay:101950) from Heimdalsgata (RB:NSR:Quay:104055)",
+                "pointsOnLink": {
+                    "length": 232,
+                    "points": "syulJmyt`ACKQcAq@kDG[CQCK{@qEGWCMAKMo@k@uCk@_DMq@WkAKm@Q_Ac@}BGUIa@EOEQGOEOO]AACG??[q@CGGOu@eBKSEKEGIGMQ{BmCSUOSMOgAsAMOIMIMEIGKIMMYCC??IOIOGMMSIQg@_A{@eBIOk@gAcC}E[m@y@}A]s@EIIOGKIGEC??GCKAaAGOCIAGCEEGGEIGKGOIMGKGIGEKIECqAaASO??IECEECCAEESOMIcAo@eAo@u@a@YOICAAICOCKCMASCeEa@[COCa@EUC[C??QC??QAIA_@EoAIg@Em@CoAKWCG?YCi@EWCWCMCSEMAQEUESGA?OESISIUKWMo@_@q@a@A?AA??YQ[WUQm@u@_@g@_@k@_@q@_@q@q@yA_@y@[y@k@}A_@gAqAqDQYSMUES@WPYZ[f@OTOLMHM@KCKMGM[w@[y@GIAAEEGAIAI@??GFIHEHMRGNMTOZSZ?@ED??SVUVUROLe@XULoBbAsBz@ULMFQHk@\\SDG?AA????CAECCGCIAOASAOAKASCc@AMCGAACGEIGEICGBmBr@"
+                },
+                "quays": [
+                    {
+                        "id": "NSR:Quay:104055",
+                        "longitude": 10.761283,
+                        "latitude": 59.918454,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62031",
+                            "name": "Heimdalsgata",
+                            "longitude": 10.760851,
+                            "latitude": 59.918382
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104050",
+                        "longitude": 10.768691,
+                        "latitude": 59.920638,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62029",
+                            "name": "Lakkegata skole",
+                            "longitude": 10.768482,
+                            "latitude": 59.920612
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:104049",
+                        "longitude": 10.771845,
+                        "latitude": 59.922973,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62028",
+                            "name": "Sofienberg",
+                            "longitude": 10.771738,
+                            "latitude": 59.922978
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11043",
+                        "longitude": 10.776909,
+                        "latitude": 59.927005,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6017",
+                            "name": "Carl Berners plass",
+                            "longitude": 10.776642,
+                            "latitude": 59.926744
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11053",
+                        "longitude": 10.778293,
+                        "latitude": 59.930477,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:62025",
+                            "name": "Rosenhoff",
+                            "longitude": 10.77817,
+                            "latitude": 59.930227
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11058",
+                        "longitude": 10.779428,
+                        "latitude": 59.934386,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6024",
+                            "name": "Sinsenterrassen",
+                            "longitude": 10.779308,
+                            "latitude": 59.93437
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11094",
+                        "longitude": 10.783247,
+                        "latitude": 59.939259,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6045",
+                            "name": "Sinsenkrysset",
+                            "longitude": 10.783368,
+                            "latitude": 59.939126
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:11104",
+                        "longitude": 10.781708,
+                        "latitude": 59.941726,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6050",
+                            "name": "Grefsen stasjon",
+                            "longitude": 10.781397,
+                            "latitude": 59.942022
+                        }
+                    },
+                    {
+                        "id": "NSR:Quay:101950",
+                        "longitude": 10.781622,
+                        "latitude": 59.943217,
+                        "stopPlace": {
+                            "id": "NSR:StopPlace:6050",
+                            "name": "Grefsen stasjon",
+                            "longitude": 10.781397,
+                            "latitude": 59.942022
+                        }
+                    }
+                ]
+            }
+        ]
+    }
 }
